@@ -239,6 +239,7 @@
 		49A1D428232E1C950083346A /* coordinateoperation_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */; };
 		49A1D429232E1C950083346A /* esri_projection_mappings.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D421232E1C940083346A /* esri_projection_mappings.hpp */; };
 		49A1D42A232E1C950083346A /* coordinatesystem_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */; };
+		49A1D42C232E1DDE0083346A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D42B232E1DDE0083346A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -476,6 +477,7 @@
 		49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinateoperation_internal.hpp; path = proj/include/proj/internal/coordinateoperation_internal.hpp; sourceTree = SOURCE_ROOT; };
 		49A1D421232E1C940083346A /* esri_projection_mappings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = esri_projection_mappings.hpp; path = proj/include/proj/internal/esri_projection_mappings.hpp; sourceTree = SOURCE_ROOT; };
 		49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinatesystem_internal.hpp; path = proj/include/proj/internal/coordinatesystem_internal.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D42B232E1DDE0083346A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -493,6 +495,7 @@
 		49A1D1DC232DCEC90083346A = {
 			isa = PBXGroup;
 			children = (
+				49A1D42B232E1DDE0083346A /* README.md */,
 				49A1D1E8232DCECA0083346A /* projios */,
 				49A1D1F1232DD16C0083346A /* proj */,
 				49A1D1E7232DCEC90083346A /* Products */,
@@ -918,6 +921,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D42C232E1DDE0083346A /* README.md in Resources */,
 				49A1D2FD232DD1990083346A /* general_doc.dox in Resources */,
 				49A1D30D232DD1990083346A /* runmultistresstest.sh in Resources */,
 			);
