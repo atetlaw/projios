@@ -8,12 +8,474 @@
 
 /* Begin PBXBuildFile section */
 		49A1D1EB232DCECA0083346A /* projios.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D1E9232DCECA0083346A /* projios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A1D2EB232DD1990083346A /* datum_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F2232DD1920083346A /* datum_set.cpp */; };
+		49A1D2EC232DD1990083346A /* apply_gridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F3232DD1920083346A /* apply_gridshift.cpp */; };
+		49A1D2ED232DD1990083346A /* pr_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F4232DD1920083346A /* pr_list.cpp */; };
+		49A1D2EE232DD1990083346A /* wkt1_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F5232DD1920083346A /* wkt1_parser.cpp */; };
+		49A1D2F0232DD1990083346A /* rtodms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F7232DD1920083346A /* rtodms.cpp */; };
+		49A1D2F1232DD1990083346A /* proj_experimental.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D1F8232DD1920083346A /* proj_experimental.h */; };
+		49A1D2F5232DD1990083346A /* qsfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1FD232DD1920083346A /* qsfn.cpp */; };
+		49A1D2F6232DD1990083346A /* gridlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1FE232DD1920083346A /* gridlist.cpp */; };
+		49A1D2F8232DD1990083346A /* pj_list.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D200232DD1920083346A /* pj_list.h */; };
+		49A1D2F9232DD1990083346A /* adjlon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D201232DD1920083346A /* adjlon.cpp */; };
+		49A1D2FA232DD1990083346A /* geocent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D202232DD1920083346A /* geocent.cpp */; };
+		49A1D2FC232DD1990083346A /* apply_vgridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D204232DD1920083346A /* apply_vgridshift.cpp */; };
+		49A1D2FD232DD1990083346A /* general_doc.dox in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D205232DD1920083346A /* general_doc.dox */; };
+		49A1D2FE232DD1990083346A /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D206232DD1930083346A /* math.cpp */; };
+		49A1D2FF232DD1990083346A /* internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D207232DD1930083346A /* internal.cpp */; };
+		49A1D300232DD1990083346A /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D209232DD1930083346A /* common.cpp */; };
+		49A1D301232DD1990083346A /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20A232DD1930083346A /* util.cpp */; };
+		49A1D302232DD1990083346A /* crs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20B232DD1930083346A /* crs.cpp */; };
+		49A1D303232DD1990083346A /* coordinateoperation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20C232DD1930083346A /* coordinateoperation.cpp */; };
+		49A1D304232DD1990083346A /* c_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20D232DD1930083346A /* c_api.cpp */; };
+		49A1D305232DD1990083346A /* io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20E232DD1930083346A /* io.cpp */; };
+		49A1D306232DD1990083346A /* internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D20F232DD1930083346A /* internal.cpp */; };
+		49A1D307232DD1990083346A /* datum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D210232DD1930083346A /* datum.cpp */; };
+		49A1D308232DD1990083346A /* metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D211232DD1930083346A /* metadata.cpp */; };
+		49A1D309232DD1990083346A /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D212232DD1930083346A /* factory.cpp */; };
+		49A1D30A232DD1990083346A /* static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D213232DD1930083346A /* static.cpp */; };
+		49A1D30B232DD1990083346A /* coordinatesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D214232DD1930083346A /* coordinatesystem.cpp */; };
+		49A1D30C232DD1990083346A /* deriv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D215232DD1930083346A /* deriv.cpp */; };
+		49A1D30D232DD1990083346A /* runmultistresstest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D216232DD1930083346A /* runmultistresstest.sh */; };
+		49A1D30E232DD1990083346A /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D217232DD1930083346A /* mutex.cpp */; };
+		49A1D30F232DD1990083346A /* 4D_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D218232DD1930083346A /* 4D_api.cpp */; };
+		49A1D311232DD1990083346A /* gridinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21A232DD1930083346A /* gridinfo.cpp */; };
+		49A1D312232DD1990083346A /* inv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21B232DD1930083346A /* inv.cpp */; };
+		49A1D313232DD1990083346A /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21C232DD1930083346A /* utils.cpp */; };
+		49A1D314232DD1990083346A /* factors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21D232DD1930083346A /* factors.cpp */; };
+		49A1D315232DD1990083346A /* zpoly1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21E232DD1930083346A /* zpoly1.cpp */; };
+		49A1D316232DD1990083346A /* tsfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21F232DD1930083346A /* tsfn.cpp */; };
+		49A1D317232DD1990083346A /* proj_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D220232DD1930083346A /* proj_internal.h */; };
+		49A1D319232DD1990083346A /* wkt1_generated_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D222232DD1930083346A /* wkt1_generated_parser.h */; };
+		49A1D31A232DD1990083346A /* geocent.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D223232DD1930083346A /* geocent.h */; };
+		49A1D31C232DD1990083346A /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D225232DD1940083346A /* log.cpp */; };
+		49A1D31D232DD1990083346A /* proj_symbol_rename.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D226232DD1940083346A /* proj_symbol_rename.h */; };
+		49A1D31E232DD1990083346A /* aasincos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D227232DD1940083346A /* aasincos.cpp */; };
+		49A1D31F232DD1990083346A /* gc_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D228232DD1940083346A /* gc_reader.cpp */; };
+		49A1D320232DD1990083346A /* wkt2_generated_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D229232DD1940083346A /* wkt2_generated_parser.c */; };
+		49A1D321232DD1990083346A /* fwd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22A232DD1940083346A /* fwd.cpp */; };
+		49A1D322232DD1990083346A /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22B232DD1940083346A /* transform.cpp */; };
+		49A1D323232DD1990083346A /* phi2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22C232DD1940083346A /* phi2.cpp */; };
+		49A1D324232DD1990083346A /* mlfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22D232DD1940083346A /* mlfn.cpp */; };
+		49A1D325232DD1990083346A /* org_proj4_PJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D22E232DD1940083346A /* org_proj4_PJ.h */; };
+		49A1D326232DD1990083346A /* nad_intr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22F232DD1940083346A /* nad_intr.cpp */; };
+		49A1D327232DD1990083346A /* initcache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D230232DD1940083346A /* initcache.cpp */; };
+		49A1D328232DD1990083346A /* nad_cvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D231232DD1940083346A /* nad_cvt.cpp */; };
+		49A1D329232DD1990083346A /* nad_init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D232232DD1950083346A /* nad_init.cpp */; };
+		49A1D32A232DD1990083346A /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D233232DD1950083346A /* ctx.cpp */; };
+		49A1D32B232DD1990083346A /* jniproj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D234232DD1950083346A /* jniproj.cpp */; };
+		49A1D32E232DD1990083346A /* units.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D237232DD1950083346A /* units.cpp */; };
+		49A1D32F232DD1990083346A /* gridcatalog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D238232DD1950083346A /* gridcatalog.cpp */; };
+		49A1D330232DD1990083346A /* gauss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D239232DD1950083346A /* gauss.cpp */; };
+		49A1D331232DD1990083346A /* msfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D23A232DD1950083346A /* msfn.cpp */; };
+		49A1D333232DD1990083346A /* horner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D23D232DD1950083346A /* horner.cpp */; };
+		49A1D334232DD1990083346A /* molodensky.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D23E232DD1950083346A /* molodensky.cpp */; };
+		49A1D335232DD1990083346A /* affine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D23F232DD1950083346A /* affine.cpp */; };
+		49A1D336232DD1990083346A /* deformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D240232DD1950083346A /* deformation.cpp */; };
+		49A1D337232DD1990083346A /* helmert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D241232DD1950083346A /* helmert.cpp */; };
+		49A1D338232DD1990083346A /* hgridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D242232DD1950083346A /* hgridshift.cpp */; };
+		49A1D339232DD1990083346A /* vgridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D243232DD1950083346A /* vgridshift.cpp */; };
+		49A1D33A232DD1990083346A /* malloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D244232DD1950083346A /* malloc.cpp */; };
+		49A1D33B232DD1990083346A /* strerrno.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D245232DD1960083346A /* strerrno.cpp */; };
+		49A1D33C232DD1990083346A /* fileapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D246232DD1960083346A /* fileapi.cpp */; };
+		49A1D33D232DD1990083346A /* pipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D247232DD1960083346A /* pipeline.cpp */; };
+		49A1D33E232DD1990083346A /* wkt2_generated_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D248232DD1960083346A /* wkt2_generated_parser.h */; };
+		49A1D33F232DD1990083346A /* dmstor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D249232DD1960083346A /* dmstor.cpp */; };
+		49A1D341232DD1990083346A /* wkt1_generated_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D24B232DD1960083346A /* wkt1_generated_parser.c */; };
+		49A1D342232DD1990083346A /* datums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D24C232DD1960083346A /* datums.cpp */; };
+		49A1D343232DD1990083346A /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D24D232DD1960083346A /* list.cpp */; };
+		49A1D344232DD1990083346A /* proj_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D24E232DD1960083346A /* proj_constants.h */; };
+		49A1D346232DD1990083346A /* proj_json_streaming_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D250232DD1970083346A /* proj_json_streaming_writer.cpp */; };
+		49A1D347232DD1990083346A /* proj_math.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D251232DD1970083346A /* proj_math.h */; };
+		49A1D349232DD1990083346A /* geodesic.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D253232DD1970083346A /* geodesic.h */; };
+		49A1D34A232DD1990083346A /* init.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D254232DD1970083346A /* init.cpp */; };
+		49A1D34B232DD1990083346A /* release.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D255232DD1970083346A /* release.cpp */; };
+		49A1D34C232DD1990083346A /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D256232DD1970083346A /* auth.cpp */; };
+		49A1D34D232DD1990083346A /* proj_mdist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D257232DD1970083346A /* proj_mdist.cpp */; };
+		49A1D34E232DD1990083346A /* ellps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D258232DD1970083346A /* ellps.cpp */; };
+		49A1D35F232DD1990083346A /* wkt2_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D26A232DD1980083346A /* wkt2_parser.h */; };
+		49A1D360232DD1990083346A /* wkt_parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D26B232DD1980083346A /* wkt_parser.hpp */; };
+		49A1D361232DD1990083346A /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D26C232DD1980083346A /* param.cpp */; };
+		49A1D362232DD1990083346A /* proj_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D26D232DD1980083346A /* proj_api.h */; };
+		49A1D363232DD1990083346A /* geodesic.c in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D26E232DD1980083346A /* geodesic.c */; };
+		49A1D364232DD1990083346A /* gall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D270232DD1980083346A /* gall.cpp */; };
+		49A1D365232DD1990083346A /* misrsom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D271232DD1980083346A /* misrsom.cpp */; };
+		49A1D366232DD1990083346A /* gstmerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D272232DD1980083346A /* gstmerc.cpp */; };
+		49A1D367232DD1990083346A /* geos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D273232DD1980083346A /* geos.cpp */; };
+		49A1D368232DD1990083346A /* mbt_fps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D274232DD1980083346A /* mbt_fps.cpp */; };
+		49A1D369232DD1990083346A /* bertin1953.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D275232DD1980083346A /* bertin1953.cpp */; };
+		49A1D36A232DD1990083346A /* hammer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D276232DD1980083346A /* hammer.cpp */; };
+		49A1D36B232DD1990083346A /* bacon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D277232DD1980083346A /* bacon.cpp */; };
+		49A1D36C232DD1990083346A /* gn_sinu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D278232DD1980083346A /* gn_sinu.cpp */; };
+		49A1D36D232DD1990083346A /* natearth2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D279232DD1980083346A /* natearth2.cpp */; };
+		49A1D36E232DD1990083346A /* fahey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27A232DD1980083346A /* fahey.cpp */; };
+		49A1D36F232DD1990083346A /* igh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27B232DD1980083346A /* igh.cpp */; };
+		49A1D370232DD1990083346A /* nzmg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27C232DD1980083346A /* nzmg.cpp */; };
+		49A1D371232DD1990083346A /* rouss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27D232DD1980083346A /* rouss.cpp */; };
+		49A1D372232DD1990083346A /* tmerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27E232DD1980083346A /* tmerc.cpp */; };
+		49A1D373232DD1990083346A /* rpoly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D27F232DD1980083346A /* rpoly.cpp */; };
+		49A1D374232DD1990083346A /* cc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D280232DD1980083346A /* cc.cpp */; };
+		49A1D375232DD1990083346A /* aeqd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D281232DD1980083346A /* aeqd.cpp */; };
+		49A1D376232DD1990083346A /* vandg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D282232DD1980083346A /* vandg.cpp */; };
+		49A1D377232DD1990083346A /* ocea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D283232DD1980083346A /* ocea.cpp */; };
+		49A1D378232DD1990083346A /* oea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D284232DD1980083346A /* oea.cpp */; };
+		49A1D379232DD1990083346A /* stere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D285232DD1980083346A /* stere.cpp */; };
+		49A1D37A232DD1990083346A /* lcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D286232DD1980083346A /* lcc.cpp */; };
+		49A1D37B232DD1990083346A /* calcofi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D287232DD1980083346A /* calcofi.cpp */; };
+		49A1D37C232DD1990083346A /* tpeqd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D288232DD1980083346A /* tpeqd.cpp */; };
+		49A1D37D232DD1990083346A /* gnom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D289232DD1980083346A /* gnom.cpp */; };
+		49A1D37E232DD1990083346A /* ob_tran.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28A232DD1980083346A /* ob_tran.cpp */; };
+		49A1D37F232DD1990083346A /* urm5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28B232DD1980083346A /* urm5.cpp */; };
+		49A1D380232DD1990083346A /* boggs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28C232DD1980083346A /* boggs.cpp */; };
+		49A1D381232DD1990083346A /* august.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28D232DD1980083346A /* august.cpp */; };
+		49A1D382232DD1990083346A /* krovak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28E232DD1980083346A /* krovak.cpp */; };
+		49A1D383232DD1990083346A /* poly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D28F232DD1980083346A /* poly.cpp */; };
+		49A1D384232DD1990083346A /* healpix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D290232DD1980083346A /* healpix.cpp */; };
+		49A1D385232DD1990083346A /* imw_p.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D291232DD1980083346A /* imw_p.cpp */; };
+		49A1D386232DD1990083346A /* somerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D292232DD1980083346A /* somerc.cpp */; };
+		49A1D387232DD1990083346A /* patterson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D293232DD1980083346A /* patterson.cpp */; };
+		49A1D388232DD1990083346A /* mod_ster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D294232DD1980083346A /* mod_ster.cpp */; };
+		49A1D389232DD1990083346A /* times.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D295232DD1980083346A /* times.cpp */; };
+		49A1D38A232DD1990083346A /* bipc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D296232DD1980083346A /* bipc.cpp */; };
+		49A1D38B232DD1990083346A /* bonne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D297232DD1980083346A /* bonne.cpp */; };
+		49A1D38C232DD1990083346A /* denoy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D298232DD1980083346A /* denoy.cpp */; };
+		49A1D38D232DD1990083346A /* larr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D299232DD1980083346A /* larr.cpp */; };
+		49A1D38E232DD1990083346A /* tcc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29A232DD1980083346A /* tcc.cpp */; };
+		49A1D38F232DD1990083346A /* laea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29B232DD1980083346A /* laea.cpp */; };
+		49A1D390232DD1990083346A /* eck2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29C232DD1980083346A /* eck2.cpp */; };
+		49A1D391232DD1990083346A /* goode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29D232DD1980083346A /* goode.cpp */; };
+		49A1D392232DD19A0083346A /* wink1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29E232DD1980083346A /* wink1.cpp */; };
+		49A1D393232DD19A0083346A /* nicol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D29F232DD1980083346A /* nicol.cpp */; };
+		49A1D394232DD19A0083346A /* eqearth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A0232DD1980083346A /* eqearth.cpp */; };
+		49A1D395232DD19A0083346A /* eck3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A1232DD1980083346A /* eck3.cpp */; };
+		49A1D396232DD19A0083346A /* nell_h.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A2232DD1980083346A /* nell_h.cpp */; };
+		49A1D397232DD19A0083346A /* tcea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A3232DD1980083346A /* tcea.cpp */; };
+		49A1D398232DD19A0083346A /* putp4p.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A4232DD1980083346A /* putp4p.cpp */; };
+		49A1D399232DD19A0083346A /* omerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A5232DD1980083346A /* omerc.cpp */; };
+		49A1D39A232DD19A0083346A /* mill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A6232DD1980083346A /* mill.cpp */; };
+		49A1D39B232DD19A0083346A /* mbtfpq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A7232DD1980083346A /* mbtfpq.cpp */; };
+		49A1D39C232DD19A0083346A /* lsat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A8232DD1980083346A /* lsat.cpp */; };
+		49A1D39D232DD19A0083346A /* sterea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2A9232DD1980083346A /* sterea.cpp */; };
+		49A1D39E232DD19A0083346A /* eck1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AA232DD1980083346A /* eck1.cpp */; };
+		49A1D39F232DD19A0083346A /* collg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AB232DD1980083346A /* collg.cpp */; };
+		49A1D3A0232DD19A0083346A /* gins8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AC232DD1980083346A /* gins8.cpp */; };
+		49A1D3A1232DD19A0083346A /* ccon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AD232DD1980083346A /* ccon.cpp */; };
+		49A1D3A2232DD19A0083346A /* wink2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AE232DD1980083346A /* wink2.cpp */; };
+		49A1D3A3232DD19A0083346A /* ortho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2AF232DD1980083346A /* ortho.cpp */; };
+		49A1D3A4232DD19A0083346A /* mbtfpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B0232DD1980083346A /* mbtfpp.cpp */; };
+		49A1D3A5232DD19A0083346A /* labrd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B1232DD1980083346A /* labrd.cpp */; };
+		49A1D3A6232DD19A0083346A /* eck4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B2232DD1980083346A /* eck4.cpp */; };
+		49A1D3A7232DD19A0083346A /* lask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B3232DD1980083346A /* lask.cpp */; };
+		49A1D3A8232DD19A0083346A /* eck5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B4232DD1980083346A /* eck5.cpp */; };
+		49A1D3A9232DD19A0083346A /* moll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B5232DD1980083346A /* moll.cpp */; };
+		49A1D3AA232DD19A0083346A /* crast.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B6232DD1980083346A /* crast.cpp */; };
+		49A1D3AB232DD19A0083346A /* fouc_s.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B7232DD1980083346A /* fouc_s.cpp */; };
+		49A1D3AC232DD19A0083346A /* urmfps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B8232DD1980083346A /* urmfps.cpp */; };
+		49A1D3AD232DD19A0083346A /* latlong.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2B9232DD1980083346A /* latlong.cpp */; };
+		49A1D3AE232DD19A0083346A /* qsc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BA232DD1980083346A /* qsc.cpp */; };
+		49A1D3AF232DD19A0083346A /* nell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BB232DD1980083346A /* nell.cpp */; };
+		49A1D3B0232DD19A0083346A /* eqc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BC232DD1980083346A /* eqc.cpp */; };
+		49A1D3B1232DD19A0083346A /* comill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BD232DD1980083346A /* comill.cpp */; };
+		49A1D3B2232DD19A0083346A /* lagrng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BE232DD1980083346A /* lagrng.cpp */; };
+		49A1D3B3232DD19A0083346A /* natearth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2BF232DD1980083346A /* natearth.cpp */; };
+		49A1D3B4232DD19A0083346A /* putp5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C0232DD1980083346A /* putp5.cpp */; };
+		49A1D3B5232DD19A0083346A /* lcca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C1232DD1980083346A /* lcca.cpp */; };
+		49A1D3B6232DD19A0083346A /* cea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C2232DD1980083346A /* cea.cpp */; };
+		49A1D3B7232DD19A0083346A /* wag3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C3232DD1980083346A /* wag3.cpp */; };
+		49A1D3B8232DD19A0083346A /* sch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C4232DD1980083346A /* sch.cpp */; };
+		49A1D3B9232DD19A0083346A /* aea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C5232DD1980083346A /* aea.cpp */; };
+		49A1D3BA232DD19A0083346A /* hatano.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C6232DD1980083346A /* hatano.cpp */; };
+		49A1D3BB232DD19A0083346A /* vandg2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C7232DD1980083346A /* vandg2.cpp */; };
+		49A1D3BC232DD19A0083346A /* sconics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C8232DD1980083346A /* sconics.cpp */; };
+		49A1D3BD232DD19A0083346A /* robin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2C9232DD1980083346A /* robin.cpp */; };
+		49A1D3BE232DD19A0083346A /* putp6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CA232DD1980083346A /* putp6.cpp */; };
+		49A1D3BF232DD19A0083346A /* eqdc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CB232DD1980083346A /* eqdc.cpp */; };
+		49A1D3C0232DD19A0083346A /* wag2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CC232DD1980083346A /* wag2.cpp */; };
+		49A1D3C1232DD19A0083346A /* sts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CD232DD1980083346A /* sts.cpp */; };
+		49A1D3C2232DD19A0083346A /* putp2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CE232DD1980083346A /* putp2.cpp */; };
+		49A1D3C3232DD19A0083346A /* isea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2CF232DD1980083346A /* isea.cpp */; };
+		49A1D3C4232DD19A0083346A /* cass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D0232DD1980083346A /* cass.cpp */; };
+		49A1D3C5232DD19A0083346A /* loxim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D1232DD1980083346A /* loxim.cpp */; };
+		49A1D3C6232DD19A0083346A /* putp3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D2232DD1980083346A /* putp3.cpp */; };
+		49A1D3C7232DD19A0083346A /* wag7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D3232DD1980083346A /* wag7.cpp */; };
+		49A1D3C8232DD19A0083346A /* tobmerc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D4232DD1980083346A /* tobmerc.cpp */; };
+		49A1D3C9232DD19A0083346A /* chamb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D5232DD1980083346A /* chamb.cpp */; };
+		49A1D3CA232DD19A0083346A /* nsper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D6232DD1980083346A /* nsper.cpp */; };
+		49A1D3CB232DD19A0083346A /* vandg4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D7232DD1980083346A /* vandg4.cpp */; };
+		49A1D3CC232DD19A0083346A /* airy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D8232DD1980083346A /* airy.cpp */; };
+		49A1D3CD232DD19A0083346A /* aitoff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2D9232DD1980083346A /* aitoff.cpp */; };
+		49A1D3CE232DD19A0083346A /* merc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2DA232DD1980083346A /* merc.cpp */; };
+		49A1D3CF232DD19A0083346A /* proj.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D2DB232DD1980083346A /* proj.h */; };
+		49A1D3D0232DD19A0083346A /* wkt_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2DC232DD1980083346A /* wkt_parser.cpp */; };
+		49A1D3D1232DD19A0083346A /* ell_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2DD232DD1980083346A /* ell_set.cpp */; };
+		49A1D3D2232DD19A0083346A /* strtod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2DE232DD1980083346A /* strtod.cpp */; };
+		49A1D3D3232DD19A0083346A /* geoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E0232DD1990083346A /* geoc.cpp */; };
+		49A1D3D4232DD19A0083346A /* noop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E1232DD1990083346A /* noop.cpp */; };
+		49A1D3D5232DD19A0083346A /* unitconvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E2232DD1990083346A /* unitconvert.cpp */; };
+		49A1D3D6232DD19A0083346A /* geocent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E3232DD1990083346A /* geocent.cpp */; };
+		49A1D3D7232DD19A0083346A /* axisswap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E4232DD1990083346A /* axisswap.cpp */; };
+		49A1D3D8232DD19A0083346A /* cart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E5232DD1990083346A /* cart.cpp */; };
+		49A1D3D9232DD19A0083346A /* wkt2_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E6232DD1990083346A /* wkt2_parser.cpp */; };
+		49A1D3DA232DD19A0083346A /* errno.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E7232DD1990083346A /* errno.cpp */; };
+		49A1D3DB232DD19A0083346A /* open_lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D2E8232DD1990083346A /* open_lib.cpp */; };
+		49A1D3DC232DD19A0083346A /* wkt1_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D2E9232DD1990083346A /* wkt1_parser.h */; };
+		49A1D3DD232DD19A0083346A /* proj_json_streaming_writer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D2EA232DD1990083346A /* proj_json_streaming_writer.hpp */; };
+		49A1D405232E1A3A0083346A /* proj_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D404232E1A390083346A /* proj_config.h */; };
+		49A1D408232E1AA10083346A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1D407232E1AA10083346A /* libsqlite3.tbd */; };
+		49A1D412232E1C840083346A /* coordinateoperation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D409232E1C840083346A /* coordinateoperation.hpp */; };
+		49A1D413232E1C840083346A /* io.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40A232E1C840083346A /* io.hpp */; };
+		49A1D414232E1C840083346A /* common.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40B232E1C840083346A /* common.hpp */; };
+		49A1D415232E1C840083346A /* util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40C232E1C840083346A /* util.hpp */; };
+		49A1D416232E1C840083346A /* metadata.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40D232E1C840083346A /* metadata.hpp */; };
+		49A1D417232E1C840083346A /* datum.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40E232E1C840083346A /* datum.hpp */; };
+		49A1D418232E1C840083346A /* crs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D40F232E1C840083346A /* crs.hpp */; };
+		49A1D419232E1C840083346A /* coordinatesystem.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D410232E1C840083346A /* coordinatesystem.hpp */; };
+		49A1D41A232E1C840083346A /* nn.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D411232E1C840083346A /* nn.hpp */; };
+		49A1D423232E1C950083346A /* io_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D41B232E1C940083346A /* io_internal.hpp */; };
+		49A1D424232E1C950083346A /* internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D41C232E1C940083346A /* internal.hpp */; };
+		49A1D425232E1C950083346A /* coordinateoperation_constants.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D41D232E1C940083346A /* coordinateoperation_constants.hpp */; };
+		49A1D426232E1C950083346A /* include_nlohmann_json.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D41E232E1C940083346A /* include_nlohmann_json.hpp */; };
+		49A1D427232E1C950083346A /* lru_cache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D41F232E1C940083346A /* lru_cache.hpp */; };
+		49A1D428232E1C950083346A /* coordinateoperation_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */; };
+		49A1D429232E1C950083346A /* esri_projection_mappings.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D421232E1C940083346A /* esri_projection_mappings.hpp */; };
+		49A1D42A232E1C950083346A /* coordinatesystem_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		49A1D1E6232DCEC90083346A /* projios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = projios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A1D1E9232DCECA0083346A /* projios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projios.h; sourceTree = "<group>"; };
 		49A1D1EA232DCECA0083346A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A1D1F2232DD1920083346A /* datum_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = datum_set.cpp; path = proj/src/datum_set.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1F3232DD1920083346A /* apply_gridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apply_gridshift.cpp; path = proj/src/apply_gridshift.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1F4232DD1920083346A /* pr_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pr_list.cpp; path = proj/src/pr_list.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1F5232DD1920083346A /* wkt1_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wkt1_parser.cpp; path = proj/src/wkt1_parser.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1F7232DD1920083346A /* rtodms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rtodms.cpp; path = proj/src/rtodms.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1F8232DD1920083346A /* proj_experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_experimental.h; path = proj/src/proj_experimental.h; sourceTree = SOURCE_ROOT; };
+		49A1D1FD232DD1920083346A /* qsfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = qsfn.cpp; path = proj/src/qsfn.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D1FE232DD1920083346A /* gridlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gridlist.cpp; path = proj/src/gridlist.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D200232DD1920083346A /* pj_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pj_list.h; path = proj/src/pj_list.h; sourceTree = SOURCE_ROOT; };
+		49A1D201232DD1920083346A /* adjlon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adjlon.cpp; path = proj/src/adjlon.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D202232DD1920083346A /* geocent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geocent.cpp; path = proj/src/geocent.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D204232DD1920083346A /* apply_vgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apply_vgridshift.cpp; path = proj/src/apply_vgridshift.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D205232DD1920083346A /* general_doc.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = general_doc.dox; path = proj/src/general_doc.dox; sourceTree = SOURCE_ROOT; };
+		49A1D206232DD1930083346A /* math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = math.cpp; path = proj/src/math.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D207232DD1930083346A /* internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = internal.cpp; path = proj/src/internal.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D209232DD1930083346A /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		49A1D20A232DD1930083346A /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
+		49A1D20B232DD1930083346A /* crs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crs.cpp; sourceTree = "<group>"; };
+		49A1D20C232DD1930083346A /* coordinateoperation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinateoperation.cpp; sourceTree = "<group>"; };
+		49A1D20D232DD1930083346A /* c_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_api.cpp; sourceTree = "<group>"; };
+		49A1D20E232DD1930083346A /* io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = io.cpp; sourceTree = "<group>"; };
+		49A1D20F232DD1930083346A /* internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = internal.cpp; sourceTree = "<group>"; };
+		49A1D210232DD1930083346A /* datum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datum.cpp; sourceTree = "<group>"; };
+		49A1D211232DD1930083346A /* metadata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = metadata.cpp; sourceTree = "<group>"; };
+		49A1D212232DD1930083346A /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
+		49A1D213232DD1930083346A /* static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = static.cpp; sourceTree = "<group>"; };
+		49A1D214232DD1930083346A /* coordinatesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinatesystem.cpp; sourceTree = "<group>"; };
+		49A1D215232DD1930083346A /* deriv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = deriv.cpp; path = proj/src/deriv.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D216232DD1930083346A /* runmultistresstest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = runmultistresstest.sh; path = proj/src/runmultistresstest.sh; sourceTree = SOURCE_ROOT; };
+		49A1D217232DD1930083346A /* mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mutex.cpp; path = proj/src/mutex.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D218232DD1930083346A /* 4D_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 4D_api.cpp; path = proj/src/4D_api.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21A232DD1930083346A /* gridinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gridinfo.cpp; path = proj/src/gridinfo.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21B232DD1930083346A /* inv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inv.cpp; path = proj/src/inv.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21C232DD1930083346A /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = proj/src/utils.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21D232DD1930083346A /* factors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = factors.cpp; path = proj/src/factors.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21E232DD1930083346A /* zpoly1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zpoly1.cpp; path = proj/src/zpoly1.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D21F232DD1930083346A /* tsfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tsfn.cpp; path = proj/src/tsfn.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D220232DD1930083346A /* proj_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_internal.h; path = proj/src/proj_internal.h; sourceTree = SOURCE_ROOT; };
+		49A1D222232DD1930083346A /* wkt1_generated_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wkt1_generated_parser.h; path = proj/src/wkt1_generated_parser.h; sourceTree = SOURCE_ROOT; };
+		49A1D223232DD1930083346A /* geocent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geocent.h; path = proj/src/geocent.h; sourceTree = SOURCE_ROOT; };
+		49A1D225232DD1940083346A /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = log.cpp; path = proj/src/log.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D226232DD1940083346A /* proj_symbol_rename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_symbol_rename.h; path = proj/src/proj_symbol_rename.h; sourceTree = SOURCE_ROOT; };
+		49A1D227232DD1940083346A /* aasincos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aasincos.cpp; path = proj/src/aasincos.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D228232DD1940083346A /* gc_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gc_reader.cpp; path = proj/src/gc_reader.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D229232DD1940083346A /* wkt2_generated_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wkt2_generated_parser.c; path = proj/src/wkt2_generated_parser.c; sourceTree = SOURCE_ROOT; };
+		49A1D22A232DD1940083346A /* fwd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fwd.cpp; path = proj/src/fwd.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D22B232DD1940083346A /* transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = transform.cpp; path = proj/src/transform.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D22C232DD1940083346A /* phi2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = phi2.cpp; path = proj/src/phi2.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D22D232DD1940083346A /* mlfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mlfn.cpp; path = proj/src/mlfn.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D22E232DD1940083346A /* org_proj4_PJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = org_proj4_PJ.h; path = proj/src/org_proj4_PJ.h; sourceTree = SOURCE_ROOT; };
+		49A1D22F232DD1940083346A /* nad_intr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nad_intr.cpp; path = proj/src/nad_intr.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D230232DD1940083346A /* initcache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = initcache.cpp; path = proj/src/initcache.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D231232DD1940083346A /* nad_cvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nad_cvt.cpp; path = proj/src/nad_cvt.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D232232DD1950083346A /* nad_init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nad_init.cpp; path = proj/src/nad_init.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D233232DD1950083346A /* ctx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ctx.cpp; path = proj/src/ctx.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D234232DD1950083346A /* jniproj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jniproj.cpp; path = proj/src/jniproj.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D237232DD1950083346A /* units.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = units.cpp; path = proj/src/units.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D238232DD1950083346A /* gridcatalog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gridcatalog.cpp; path = proj/src/gridcatalog.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D239232DD1950083346A /* gauss.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gauss.cpp; path = proj/src/gauss.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D23A232DD1950083346A /* msfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = msfn.cpp; path = proj/src/msfn.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D23D232DD1950083346A /* horner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = horner.cpp; sourceTree = "<group>"; };
+		49A1D23E232DD1950083346A /* molodensky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = molodensky.cpp; sourceTree = "<group>"; };
+		49A1D23F232DD1950083346A /* affine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = affine.cpp; sourceTree = "<group>"; };
+		49A1D240232DD1950083346A /* deformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deformation.cpp; sourceTree = "<group>"; };
+		49A1D241232DD1950083346A /* helmert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helmert.cpp; sourceTree = "<group>"; };
+		49A1D242232DD1950083346A /* hgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hgridshift.cpp; sourceTree = "<group>"; };
+		49A1D243232DD1950083346A /* vgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vgridshift.cpp; sourceTree = "<group>"; };
+		49A1D244232DD1950083346A /* malloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = malloc.cpp; path = proj/src/malloc.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D245232DD1960083346A /* strerrno.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strerrno.cpp; path = proj/src/strerrno.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D246232DD1960083346A /* fileapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fileapi.cpp; path = proj/src/fileapi.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D247232DD1960083346A /* pipeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pipeline.cpp; path = proj/src/pipeline.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D248232DD1960083346A /* wkt2_generated_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wkt2_generated_parser.h; path = proj/src/wkt2_generated_parser.h; sourceTree = SOURCE_ROOT; };
+		49A1D249232DD1960083346A /* dmstor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = dmstor.cpp; path = proj/src/dmstor.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D24B232DD1960083346A /* wkt1_generated_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wkt1_generated_parser.c; path = proj/src/wkt1_generated_parser.c; sourceTree = SOURCE_ROOT; };
+		49A1D24C232DD1960083346A /* datums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = datums.cpp; path = proj/src/datums.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D24D232DD1960083346A /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = list.cpp; path = proj/src/list.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D24E232DD1960083346A /* proj_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_constants.h; path = proj/src/proj_constants.h; sourceTree = SOURCE_ROOT; };
+		49A1D250232DD1970083346A /* proj_json_streaming_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = proj_json_streaming_writer.cpp; path = proj/src/proj_json_streaming_writer.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D251232DD1970083346A /* proj_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_math.h; path = proj/src/proj_math.h; sourceTree = SOURCE_ROOT; };
+		49A1D253232DD1970083346A /* geodesic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geodesic.h; path = proj/src/geodesic.h; sourceTree = SOURCE_ROOT; };
+		49A1D254232DD1970083346A /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = init.cpp; path = proj/src/init.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D255232DD1970083346A /* release.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = release.cpp; path = proj/src/release.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D256232DD1970083346A /* auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = auth.cpp; path = proj/src/auth.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D257232DD1970083346A /* proj_mdist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = proj_mdist.cpp; path = proj/src/proj_mdist.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D258232DD1970083346A /* ellps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ellps.cpp; path = proj/src/ellps.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D26A232DD1980083346A /* wkt2_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wkt2_parser.h; path = proj/src/wkt2_parser.h; sourceTree = SOURCE_ROOT; };
+		49A1D26B232DD1980083346A /* wkt_parser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = wkt_parser.hpp; path = proj/src/wkt_parser.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D26C232DD1980083346A /* param.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = param.cpp; path = proj/src/param.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D26D232DD1980083346A /* proj_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_api.h; path = proj/src/proj_api.h; sourceTree = SOURCE_ROOT; };
+		49A1D26E232DD1980083346A /* geodesic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = geodesic.c; path = proj/src/geodesic.c; sourceTree = SOURCE_ROOT; };
+		49A1D270232DD1980083346A /* gall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gall.cpp; sourceTree = "<group>"; };
+		49A1D271232DD1980083346A /* misrsom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misrsom.cpp; sourceTree = "<group>"; };
+		49A1D272232DD1980083346A /* gstmerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gstmerc.cpp; sourceTree = "<group>"; };
+		49A1D273232DD1980083346A /* geos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geos.cpp; sourceTree = "<group>"; };
+		49A1D274232DD1980083346A /* mbt_fps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mbt_fps.cpp; sourceTree = "<group>"; };
+		49A1D275232DD1980083346A /* bertin1953.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bertin1953.cpp; sourceTree = "<group>"; };
+		49A1D276232DD1980083346A /* hammer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hammer.cpp; sourceTree = "<group>"; };
+		49A1D277232DD1980083346A /* bacon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bacon.cpp; sourceTree = "<group>"; };
+		49A1D278232DD1980083346A /* gn_sinu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gn_sinu.cpp; sourceTree = "<group>"; };
+		49A1D279232DD1980083346A /* natearth2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = natearth2.cpp; sourceTree = "<group>"; };
+		49A1D27A232DD1980083346A /* fahey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fahey.cpp; sourceTree = "<group>"; };
+		49A1D27B232DD1980083346A /* igh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = igh.cpp; sourceTree = "<group>"; };
+		49A1D27C232DD1980083346A /* nzmg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nzmg.cpp; sourceTree = "<group>"; };
+		49A1D27D232DD1980083346A /* rouss.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rouss.cpp; sourceTree = "<group>"; };
+		49A1D27E232DD1980083346A /* tmerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tmerc.cpp; sourceTree = "<group>"; };
+		49A1D27F232DD1980083346A /* rpoly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rpoly.cpp; sourceTree = "<group>"; };
+		49A1D280232DD1980083346A /* cc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cc.cpp; sourceTree = "<group>"; };
+		49A1D281232DD1980083346A /* aeqd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aeqd.cpp; sourceTree = "<group>"; };
+		49A1D282232DD1980083346A /* vandg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vandg.cpp; sourceTree = "<group>"; };
+		49A1D283232DD1980083346A /* ocea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ocea.cpp; sourceTree = "<group>"; };
+		49A1D284232DD1980083346A /* oea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oea.cpp; sourceTree = "<group>"; };
+		49A1D285232DD1980083346A /* stere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stere.cpp; sourceTree = "<group>"; };
+		49A1D286232DD1980083346A /* lcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lcc.cpp; sourceTree = "<group>"; };
+		49A1D287232DD1980083346A /* calcofi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = calcofi.cpp; sourceTree = "<group>"; };
+		49A1D288232DD1980083346A /* tpeqd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tpeqd.cpp; sourceTree = "<group>"; };
+		49A1D289232DD1980083346A /* gnom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gnom.cpp; sourceTree = "<group>"; };
+		49A1D28A232DD1980083346A /* ob_tran.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ob_tran.cpp; sourceTree = "<group>"; };
+		49A1D28B232DD1980083346A /* urm5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = urm5.cpp; sourceTree = "<group>"; };
+		49A1D28C232DD1980083346A /* boggs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = boggs.cpp; sourceTree = "<group>"; };
+		49A1D28D232DD1980083346A /* august.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = august.cpp; sourceTree = "<group>"; };
+		49A1D28E232DD1980083346A /* krovak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = krovak.cpp; sourceTree = "<group>"; };
+		49A1D28F232DD1980083346A /* poly.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poly.cpp; sourceTree = "<group>"; };
+		49A1D290232DD1980083346A /* healpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = healpix.cpp; sourceTree = "<group>"; };
+		49A1D291232DD1980083346A /* imw_p.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imw_p.cpp; sourceTree = "<group>"; };
+		49A1D292232DD1980083346A /* somerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = somerc.cpp; sourceTree = "<group>"; };
+		49A1D293232DD1980083346A /* patterson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = patterson.cpp; sourceTree = "<group>"; };
+		49A1D294232DD1980083346A /* mod_ster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mod_ster.cpp; sourceTree = "<group>"; };
+		49A1D295232DD1980083346A /* times.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = times.cpp; sourceTree = "<group>"; };
+		49A1D296232DD1980083346A /* bipc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bipc.cpp; sourceTree = "<group>"; };
+		49A1D297232DD1980083346A /* bonne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bonne.cpp; sourceTree = "<group>"; };
+		49A1D298232DD1980083346A /* denoy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = denoy.cpp; sourceTree = "<group>"; };
+		49A1D299232DD1980083346A /* larr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = larr.cpp; sourceTree = "<group>"; };
+		49A1D29A232DD1980083346A /* tcc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcc.cpp; sourceTree = "<group>"; };
+		49A1D29B232DD1980083346A /* laea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = laea.cpp; sourceTree = "<group>"; };
+		49A1D29C232DD1980083346A /* eck2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eck2.cpp; sourceTree = "<group>"; };
+		49A1D29D232DD1980083346A /* goode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = goode.cpp; sourceTree = "<group>"; };
+		49A1D29E232DD1980083346A /* wink1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wink1.cpp; sourceTree = "<group>"; };
+		49A1D29F232DD1980083346A /* nicol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nicol.cpp; sourceTree = "<group>"; };
+		49A1D2A0232DD1980083346A /* eqearth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqearth.cpp; sourceTree = "<group>"; };
+		49A1D2A1232DD1980083346A /* eck3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eck3.cpp; sourceTree = "<group>"; };
+		49A1D2A2232DD1980083346A /* nell_h.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nell_h.cpp; sourceTree = "<group>"; };
+		49A1D2A3232DD1980083346A /* tcea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tcea.cpp; sourceTree = "<group>"; };
+		49A1D2A4232DD1980083346A /* putp4p.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp4p.cpp; sourceTree = "<group>"; };
+		49A1D2A5232DD1980083346A /* omerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = omerc.cpp; sourceTree = "<group>"; };
+		49A1D2A6232DD1980083346A /* mill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mill.cpp; sourceTree = "<group>"; };
+		49A1D2A7232DD1980083346A /* mbtfpq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mbtfpq.cpp; sourceTree = "<group>"; };
+		49A1D2A8232DD1980083346A /* lsat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lsat.cpp; sourceTree = "<group>"; };
+		49A1D2A9232DD1980083346A /* sterea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sterea.cpp; sourceTree = "<group>"; };
+		49A1D2AA232DD1980083346A /* eck1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eck1.cpp; sourceTree = "<group>"; };
+		49A1D2AB232DD1980083346A /* collg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = collg.cpp; sourceTree = "<group>"; };
+		49A1D2AC232DD1980083346A /* gins8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gins8.cpp; sourceTree = "<group>"; };
+		49A1D2AD232DD1980083346A /* ccon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ccon.cpp; sourceTree = "<group>"; };
+		49A1D2AE232DD1980083346A /* wink2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wink2.cpp; sourceTree = "<group>"; };
+		49A1D2AF232DD1980083346A /* ortho.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ortho.cpp; sourceTree = "<group>"; };
+		49A1D2B0232DD1980083346A /* mbtfpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mbtfpp.cpp; sourceTree = "<group>"; };
+		49A1D2B1232DD1980083346A /* labrd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = labrd.cpp; sourceTree = "<group>"; };
+		49A1D2B2232DD1980083346A /* eck4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eck4.cpp; sourceTree = "<group>"; };
+		49A1D2B3232DD1980083346A /* lask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lask.cpp; sourceTree = "<group>"; };
+		49A1D2B4232DD1980083346A /* eck5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eck5.cpp; sourceTree = "<group>"; };
+		49A1D2B5232DD1980083346A /* moll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = moll.cpp; sourceTree = "<group>"; };
+		49A1D2B6232DD1980083346A /* crast.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crast.cpp; sourceTree = "<group>"; };
+		49A1D2B7232DD1980083346A /* fouc_s.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fouc_s.cpp; sourceTree = "<group>"; };
+		49A1D2B8232DD1980083346A /* urmfps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = urmfps.cpp; sourceTree = "<group>"; };
+		49A1D2B9232DD1980083346A /* latlong.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = latlong.cpp; sourceTree = "<group>"; };
+		49A1D2BA232DD1980083346A /* qsc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qsc.cpp; sourceTree = "<group>"; };
+		49A1D2BB232DD1980083346A /* nell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nell.cpp; sourceTree = "<group>"; };
+		49A1D2BC232DD1980083346A /* eqc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqc.cpp; sourceTree = "<group>"; };
+		49A1D2BD232DD1980083346A /* comill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = comill.cpp; sourceTree = "<group>"; };
+		49A1D2BE232DD1980083346A /* lagrng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lagrng.cpp; sourceTree = "<group>"; };
+		49A1D2BF232DD1980083346A /* natearth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = natearth.cpp; sourceTree = "<group>"; };
+		49A1D2C0232DD1980083346A /* putp5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp5.cpp; sourceTree = "<group>"; };
+		49A1D2C1232DD1980083346A /* lcca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lcca.cpp; sourceTree = "<group>"; };
+		49A1D2C2232DD1980083346A /* cea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cea.cpp; sourceTree = "<group>"; };
+		49A1D2C3232DD1980083346A /* wag3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wag3.cpp; sourceTree = "<group>"; };
+		49A1D2C4232DD1980083346A /* sch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sch.cpp; sourceTree = "<group>"; };
+		49A1D2C5232DD1980083346A /* aea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aea.cpp; sourceTree = "<group>"; };
+		49A1D2C6232DD1980083346A /* hatano.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hatano.cpp; sourceTree = "<group>"; };
+		49A1D2C7232DD1980083346A /* vandg2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vandg2.cpp; sourceTree = "<group>"; };
+		49A1D2C8232DD1980083346A /* sconics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sconics.cpp; sourceTree = "<group>"; };
+		49A1D2C9232DD1980083346A /* robin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = robin.cpp; sourceTree = "<group>"; };
+		49A1D2CA232DD1980083346A /* putp6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp6.cpp; sourceTree = "<group>"; };
+		49A1D2CB232DD1980083346A /* eqdc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqdc.cpp; sourceTree = "<group>"; };
+		49A1D2CC232DD1980083346A /* wag2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wag2.cpp; sourceTree = "<group>"; };
+		49A1D2CD232DD1980083346A /* sts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sts.cpp; sourceTree = "<group>"; };
+		49A1D2CE232DD1980083346A /* putp2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp2.cpp; sourceTree = "<group>"; };
+		49A1D2CF232DD1980083346A /* isea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = isea.cpp; sourceTree = "<group>"; };
+		49A1D2D0232DD1980083346A /* cass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cass.cpp; sourceTree = "<group>"; };
+		49A1D2D1232DD1980083346A /* loxim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loxim.cpp; sourceTree = "<group>"; };
+		49A1D2D2232DD1980083346A /* putp3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp3.cpp; sourceTree = "<group>"; };
+		49A1D2D3232DD1980083346A /* wag7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wag7.cpp; sourceTree = "<group>"; };
+		49A1D2D4232DD1980083346A /* tobmerc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tobmerc.cpp; sourceTree = "<group>"; };
+		49A1D2D5232DD1980083346A /* chamb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chamb.cpp; sourceTree = "<group>"; };
+		49A1D2D6232DD1980083346A /* nsper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nsper.cpp; sourceTree = "<group>"; };
+		49A1D2D7232DD1980083346A /* vandg4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vandg4.cpp; sourceTree = "<group>"; };
+		49A1D2D8232DD1980083346A /* airy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = airy.cpp; sourceTree = "<group>"; };
+		49A1D2D9232DD1980083346A /* aitoff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aitoff.cpp; sourceTree = "<group>"; };
+		49A1D2DA232DD1980083346A /* merc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = merc.cpp; sourceTree = "<group>"; };
+		49A1D2DB232DD1980083346A /* proj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj.h; path = proj/src/proj.h; sourceTree = SOURCE_ROOT; };
+		49A1D2DC232DD1980083346A /* wkt_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wkt_parser.cpp; path = proj/src/wkt_parser.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2DD232DD1980083346A /* ell_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ell_set.cpp; path = proj/src/ell_set.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2DE232DD1980083346A /* strtod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = strtod.cpp; path = proj/src/strtod.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2E0232DD1990083346A /* geoc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geoc.cpp; sourceTree = "<group>"; };
+		49A1D2E1232DD1990083346A /* noop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = noop.cpp; sourceTree = "<group>"; };
+		49A1D2E2232DD1990083346A /* unitconvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unitconvert.cpp; sourceTree = "<group>"; };
+		49A1D2E3232DD1990083346A /* geocent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geocent.cpp; sourceTree = "<group>"; };
+		49A1D2E4232DD1990083346A /* axisswap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = axisswap.cpp; sourceTree = "<group>"; };
+		49A1D2E5232DD1990083346A /* cart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cart.cpp; sourceTree = "<group>"; };
+		49A1D2E6232DD1990083346A /* wkt2_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wkt2_parser.cpp; path = proj/src/wkt2_parser.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2E7232DD1990083346A /* errno.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = errno.cpp; path = proj/src/errno.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2E8232DD1990083346A /* open_lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = open_lib.cpp; path = proj/src/open_lib.cpp; sourceTree = SOURCE_ROOT; };
+		49A1D2E9232DD1990083346A /* wkt1_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wkt1_parser.h; path = proj/src/wkt1_parser.h; sourceTree = SOURCE_ROOT; };
+		49A1D2EA232DD1990083346A /* proj_json_streaming_writer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = proj_json_streaming_writer.hpp; path = proj/src/proj_json_streaming_writer.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D404232E1A390083346A /* proj_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proj_config.h; sourceTree = "<group>"; };
+		49A1D407232E1AA10083346A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		49A1D409232E1C840083346A /* coordinateoperation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinateoperation.hpp; path = proj/include/proj/coordinateoperation.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40A232E1C840083346A /* io.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = io.hpp; path = proj/include/proj/io.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40B232E1C840083346A /* common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = common.hpp; path = proj/include/proj/common.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40C232E1C840083346A /* util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = util.hpp; path = proj/include/proj/util.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40D232E1C840083346A /* metadata.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = metadata.hpp; path = proj/include/proj/metadata.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40E232E1C840083346A /* datum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = datum.hpp; path = proj/include/proj/datum.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D40F232E1C840083346A /* crs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = crs.hpp; path = proj/include/proj/crs.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D410232E1C840083346A /* coordinatesystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinatesystem.hpp; path = proj/include/proj/coordinatesystem.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D411232E1C840083346A /* nn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = nn.hpp; path = proj/include/proj/nn.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D41B232E1C940083346A /* io_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = io_internal.hpp; path = proj/include/proj/internal/io_internal.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D41C232E1C940083346A /* internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = internal.hpp; path = proj/include/proj/internal/internal.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D41D232E1C940083346A /* coordinateoperation_constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinateoperation_constants.hpp; path = proj/include/proj/internal/coordinateoperation_constants.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D41E232E1C940083346A /* include_nlohmann_json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = include_nlohmann_json.hpp; path = proj/include/proj/internal/include_nlohmann_json.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D41F232E1C940083346A /* lru_cache.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = lru_cache.hpp; path = proj/include/proj/internal/lru_cache.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinateoperation_internal.hpp; path = proj/include/proj/internal/coordinateoperation_internal.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D421232E1C940083346A /* esri_projection_mappings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = esri_projection_mappings.hpp; path = proj/include/proj/internal/esri_projection_mappings.hpp; sourceTree = SOURCE_ROOT; };
+		49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinatesystem_internal.hpp; path = proj/include/proj/internal/coordinatesystem_internal.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +483,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D408232E1AA10083346A /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -31,7 +494,9 @@
 			isa = PBXGroup;
 			children = (
 				49A1D1E8232DCECA0083346A /* projios */,
+				49A1D1F1232DD16C0083346A /* proj */,
 				49A1D1E7232DCEC90083346A /* Products */,
+				49A1D406232E1AA10083346A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +517,304 @@
 			path = projios;
 			sourceTree = "<group>";
 		};
+		49A1D1F1232DD16C0083346A /* proj */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D404232E1A390083346A /* proj_config.h */,
+				49A1D3DE232DD39F0083346A /* include */,
+				49A1D2DF232DD1990083346A /* conversions */,
+				49A1D208232DD1930083346A /* iso19111 */,
+				49A1D26F232DD1980083346A /* projections */,
+				49A1D23C232DD1950083346A /* transformations */,
+				49A1D26E232DD1980083346A /* geodesic.c */,
+				49A1D24B232DD1960083346A /* wkt1_generated_parser.c */,
+				49A1D229232DD1940083346A /* wkt2_generated_parser.c */,
+				49A1D218232DD1930083346A /* 4D_api.cpp */,
+				49A1D227232DD1940083346A /* aasincos.cpp */,
+				49A1D201232DD1920083346A /* adjlon.cpp */,
+				49A1D1F3232DD1920083346A /* apply_gridshift.cpp */,
+				49A1D204232DD1920083346A /* apply_vgridshift.cpp */,
+				49A1D256232DD1970083346A /* auth.cpp */,
+				49A1D233232DD1950083346A /* ctx.cpp */,
+				49A1D1F2232DD1920083346A /* datum_set.cpp */,
+				49A1D24C232DD1960083346A /* datums.cpp */,
+				49A1D215232DD1930083346A /* deriv.cpp */,
+				49A1D249232DD1960083346A /* dmstor.cpp */,
+				49A1D2DD232DD1980083346A /* ell_set.cpp */,
+				49A1D258232DD1970083346A /* ellps.cpp */,
+				49A1D2E7232DD1990083346A /* errno.cpp */,
+				49A1D21D232DD1930083346A /* factors.cpp */,
+				49A1D246232DD1960083346A /* fileapi.cpp */,
+				49A1D22A232DD1940083346A /* fwd.cpp */,
+				49A1D239232DD1950083346A /* gauss.cpp */,
+				49A1D228232DD1940083346A /* gc_reader.cpp */,
+				49A1D202232DD1920083346A /* geocent.cpp */,
+				49A1D238232DD1950083346A /* gridcatalog.cpp */,
+				49A1D21A232DD1930083346A /* gridinfo.cpp */,
+				49A1D1FE232DD1920083346A /* gridlist.cpp */,
+				49A1D254232DD1970083346A /* init.cpp */,
+				49A1D230232DD1940083346A /* initcache.cpp */,
+				49A1D207232DD1930083346A /* internal.cpp */,
+				49A1D21B232DD1930083346A /* inv.cpp */,
+				49A1D234232DD1950083346A /* jniproj.cpp */,
+				49A1D24D232DD1960083346A /* list.cpp */,
+				49A1D225232DD1940083346A /* log.cpp */,
+				49A1D244232DD1950083346A /* malloc.cpp */,
+				49A1D206232DD1930083346A /* math.cpp */,
+				49A1D22D232DD1940083346A /* mlfn.cpp */,
+				49A1D23A232DD1950083346A /* msfn.cpp */,
+				49A1D217232DD1930083346A /* mutex.cpp */,
+				49A1D231232DD1940083346A /* nad_cvt.cpp */,
+				49A1D232232DD1950083346A /* nad_init.cpp */,
+				49A1D22F232DD1940083346A /* nad_intr.cpp */,
+				49A1D2E8232DD1990083346A /* open_lib.cpp */,
+				49A1D26C232DD1980083346A /* param.cpp */,
+				49A1D22C232DD1940083346A /* phi2.cpp */,
+				49A1D247232DD1960083346A /* pipeline.cpp */,
+				49A1D1F4232DD1920083346A /* pr_list.cpp */,
+				49A1D250232DD1970083346A /* proj_json_streaming_writer.cpp */,
+				49A1D257232DD1970083346A /* proj_mdist.cpp */,
+				49A1D1FD232DD1920083346A /* qsfn.cpp */,
+				49A1D255232DD1970083346A /* release.cpp */,
+				49A1D1F7232DD1920083346A /* rtodms.cpp */,
+				49A1D245232DD1960083346A /* strerrno.cpp */,
+				49A1D2DE232DD1980083346A /* strtod.cpp */,
+				49A1D22B232DD1940083346A /* transform.cpp */,
+				49A1D21F232DD1930083346A /* tsfn.cpp */,
+				49A1D237232DD1950083346A /* units.cpp */,
+				49A1D21C232DD1930083346A /* utils.cpp */,
+				49A1D2DC232DD1980083346A /* wkt_parser.cpp */,
+				49A1D1F5232DD1920083346A /* wkt1_parser.cpp */,
+				49A1D2E6232DD1990083346A /* wkt2_parser.cpp */,
+				49A1D21E232DD1930083346A /* zpoly1.cpp */,
+				49A1D205232DD1920083346A /* general_doc.dox */,
+				49A1D223232DD1930083346A /* geocent.h */,
+				49A1D253232DD1970083346A /* geodesic.h */,
+				49A1D22E232DD1940083346A /* org_proj4_PJ.h */,
+				49A1D200232DD1920083346A /* pj_list.h */,
+				49A1D26D232DD1980083346A /* proj_api.h */,
+				49A1D24E232DD1960083346A /* proj_constants.h */,
+				49A1D1F8232DD1920083346A /* proj_experimental.h */,
+				49A1D220232DD1930083346A /* proj_internal.h */,
+				49A1D251232DD1970083346A /* proj_math.h */,
+				49A1D226232DD1940083346A /* proj_symbol_rename.h */,
+				49A1D2DB232DD1980083346A /* proj.h */,
+				49A1D222232DD1930083346A /* wkt1_generated_parser.h */,
+				49A1D2E9232DD1990083346A /* wkt1_parser.h */,
+				49A1D248232DD1960083346A /* wkt2_generated_parser.h */,
+				49A1D26A232DD1980083346A /* wkt2_parser.h */,
+				49A1D2EA232DD1990083346A /* proj_json_streaming_writer.hpp */,
+				49A1D26B232DD1980083346A /* wkt_parser.hpp */,
+				49A1D216232DD1930083346A /* runmultistresstest.sh */,
+			);
+			name = proj;
+			path = projios;
+			sourceTree = "<group>";
+		};
+		49A1D208232DD1930083346A /* iso19111 */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D209232DD1930083346A /* common.cpp */,
+				49A1D20A232DD1930083346A /* util.cpp */,
+				49A1D20B232DD1930083346A /* crs.cpp */,
+				49A1D20C232DD1930083346A /* coordinateoperation.cpp */,
+				49A1D20D232DD1930083346A /* c_api.cpp */,
+				49A1D20E232DD1930083346A /* io.cpp */,
+				49A1D20F232DD1930083346A /* internal.cpp */,
+				49A1D210232DD1930083346A /* datum.cpp */,
+				49A1D211232DD1930083346A /* metadata.cpp */,
+				49A1D212232DD1930083346A /* factory.cpp */,
+				49A1D213232DD1930083346A /* static.cpp */,
+				49A1D214232DD1930083346A /* coordinatesystem.cpp */,
+			);
+			name = iso19111;
+			path = proj/src/iso19111;
+			sourceTree = SOURCE_ROOT;
+		};
+		49A1D23C232DD1950083346A /* transformations */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D23D232DD1950083346A /* horner.cpp */,
+				49A1D23E232DD1950083346A /* molodensky.cpp */,
+				49A1D23F232DD1950083346A /* affine.cpp */,
+				49A1D240232DD1950083346A /* deformation.cpp */,
+				49A1D241232DD1950083346A /* helmert.cpp */,
+				49A1D242232DD1950083346A /* hgridshift.cpp */,
+				49A1D243232DD1950083346A /* vgridshift.cpp */,
+			);
+			name = transformations;
+			path = proj/src/transformations;
+			sourceTree = SOURCE_ROOT;
+		};
+		49A1D26F232DD1980083346A /* projections */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D270232DD1980083346A /* gall.cpp */,
+				49A1D271232DD1980083346A /* misrsom.cpp */,
+				49A1D272232DD1980083346A /* gstmerc.cpp */,
+				49A1D273232DD1980083346A /* geos.cpp */,
+				49A1D274232DD1980083346A /* mbt_fps.cpp */,
+				49A1D275232DD1980083346A /* bertin1953.cpp */,
+				49A1D276232DD1980083346A /* hammer.cpp */,
+				49A1D277232DD1980083346A /* bacon.cpp */,
+				49A1D278232DD1980083346A /* gn_sinu.cpp */,
+				49A1D279232DD1980083346A /* natearth2.cpp */,
+				49A1D27A232DD1980083346A /* fahey.cpp */,
+				49A1D27B232DD1980083346A /* igh.cpp */,
+				49A1D27C232DD1980083346A /* nzmg.cpp */,
+				49A1D27D232DD1980083346A /* rouss.cpp */,
+				49A1D27E232DD1980083346A /* tmerc.cpp */,
+				49A1D27F232DD1980083346A /* rpoly.cpp */,
+				49A1D280232DD1980083346A /* cc.cpp */,
+				49A1D281232DD1980083346A /* aeqd.cpp */,
+				49A1D282232DD1980083346A /* vandg.cpp */,
+				49A1D283232DD1980083346A /* ocea.cpp */,
+				49A1D284232DD1980083346A /* oea.cpp */,
+				49A1D285232DD1980083346A /* stere.cpp */,
+				49A1D286232DD1980083346A /* lcc.cpp */,
+				49A1D287232DD1980083346A /* calcofi.cpp */,
+				49A1D288232DD1980083346A /* tpeqd.cpp */,
+				49A1D289232DD1980083346A /* gnom.cpp */,
+				49A1D28A232DD1980083346A /* ob_tran.cpp */,
+				49A1D28B232DD1980083346A /* urm5.cpp */,
+				49A1D28C232DD1980083346A /* boggs.cpp */,
+				49A1D28D232DD1980083346A /* august.cpp */,
+				49A1D28E232DD1980083346A /* krovak.cpp */,
+				49A1D28F232DD1980083346A /* poly.cpp */,
+				49A1D290232DD1980083346A /* healpix.cpp */,
+				49A1D291232DD1980083346A /* imw_p.cpp */,
+				49A1D292232DD1980083346A /* somerc.cpp */,
+				49A1D293232DD1980083346A /* patterson.cpp */,
+				49A1D294232DD1980083346A /* mod_ster.cpp */,
+				49A1D295232DD1980083346A /* times.cpp */,
+				49A1D296232DD1980083346A /* bipc.cpp */,
+				49A1D297232DD1980083346A /* bonne.cpp */,
+				49A1D298232DD1980083346A /* denoy.cpp */,
+				49A1D299232DD1980083346A /* larr.cpp */,
+				49A1D29A232DD1980083346A /* tcc.cpp */,
+				49A1D29B232DD1980083346A /* laea.cpp */,
+				49A1D29C232DD1980083346A /* eck2.cpp */,
+				49A1D29D232DD1980083346A /* goode.cpp */,
+				49A1D29E232DD1980083346A /* wink1.cpp */,
+				49A1D29F232DD1980083346A /* nicol.cpp */,
+				49A1D2A0232DD1980083346A /* eqearth.cpp */,
+				49A1D2A1232DD1980083346A /* eck3.cpp */,
+				49A1D2A2232DD1980083346A /* nell_h.cpp */,
+				49A1D2A3232DD1980083346A /* tcea.cpp */,
+				49A1D2A4232DD1980083346A /* putp4p.cpp */,
+				49A1D2A5232DD1980083346A /* omerc.cpp */,
+				49A1D2A6232DD1980083346A /* mill.cpp */,
+				49A1D2A7232DD1980083346A /* mbtfpq.cpp */,
+				49A1D2A8232DD1980083346A /* lsat.cpp */,
+				49A1D2A9232DD1980083346A /* sterea.cpp */,
+				49A1D2AA232DD1980083346A /* eck1.cpp */,
+				49A1D2AB232DD1980083346A /* collg.cpp */,
+				49A1D2AC232DD1980083346A /* gins8.cpp */,
+				49A1D2AD232DD1980083346A /* ccon.cpp */,
+				49A1D2AE232DD1980083346A /* wink2.cpp */,
+				49A1D2AF232DD1980083346A /* ortho.cpp */,
+				49A1D2B0232DD1980083346A /* mbtfpp.cpp */,
+				49A1D2B1232DD1980083346A /* labrd.cpp */,
+				49A1D2B2232DD1980083346A /* eck4.cpp */,
+				49A1D2B3232DD1980083346A /* lask.cpp */,
+				49A1D2B4232DD1980083346A /* eck5.cpp */,
+				49A1D2B5232DD1980083346A /* moll.cpp */,
+				49A1D2B6232DD1980083346A /* crast.cpp */,
+				49A1D2B7232DD1980083346A /* fouc_s.cpp */,
+				49A1D2B8232DD1980083346A /* urmfps.cpp */,
+				49A1D2B9232DD1980083346A /* latlong.cpp */,
+				49A1D2BA232DD1980083346A /* qsc.cpp */,
+				49A1D2BB232DD1980083346A /* nell.cpp */,
+				49A1D2BC232DD1980083346A /* eqc.cpp */,
+				49A1D2BD232DD1980083346A /* comill.cpp */,
+				49A1D2BE232DD1980083346A /* lagrng.cpp */,
+				49A1D2BF232DD1980083346A /* natearth.cpp */,
+				49A1D2C0232DD1980083346A /* putp5.cpp */,
+				49A1D2C1232DD1980083346A /* lcca.cpp */,
+				49A1D2C2232DD1980083346A /* cea.cpp */,
+				49A1D2C3232DD1980083346A /* wag3.cpp */,
+				49A1D2C4232DD1980083346A /* sch.cpp */,
+				49A1D2C5232DD1980083346A /* aea.cpp */,
+				49A1D2C6232DD1980083346A /* hatano.cpp */,
+				49A1D2C7232DD1980083346A /* vandg2.cpp */,
+				49A1D2C8232DD1980083346A /* sconics.cpp */,
+				49A1D2C9232DD1980083346A /* robin.cpp */,
+				49A1D2CA232DD1980083346A /* putp6.cpp */,
+				49A1D2CB232DD1980083346A /* eqdc.cpp */,
+				49A1D2CC232DD1980083346A /* wag2.cpp */,
+				49A1D2CD232DD1980083346A /* sts.cpp */,
+				49A1D2CE232DD1980083346A /* putp2.cpp */,
+				49A1D2CF232DD1980083346A /* isea.cpp */,
+				49A1D2D0232DD1980083346A /* cass.cpp */,
+				49A1D2D1232DD1980083346A /* loxim.cpp */,
+				49A1D2D2232DD1980083346A /* putp3.cpp */,
+				49A1D2D3232DD1980083346A /* wag7.cpp */,
+				49A1D2D4232DD1980083346A /* tobmerc.cpp */,
+				49A1D2D5232DD1980083346A /* chamb.cpp */,
+				49A1D2D6232DD1980083346A /* nsper.cpp */,
+				49A1D2D7232DD1980083346A /* vandg4.cpp */,
+				49A1D2D8232DD1980083346A /* airy.cpp */,
+				49A1D2D9232DD1980083346A /* aitoff.cpp */,
+				49A1D2DA232DD1980083346A /* merc.cpp */,
+			);
+			name = projections;
+			path = proj/src/projections;
+			sourceTree = SOURCE_ROOT;
+		};
+		49A1D2DF232DD1990083346A /* conversions */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D2E0232DD1990083346A /* geoc.cpp */,
+				49A1D2E1232DD1990083346A /* noop.cpp */,
+				49A1D2E2232DD1990083346A /* unitconvert.cpp */,
+				49A1D2E3232DD1990083346A /* geocent.cpp */,
+				49A1D2E4232DD1990083346A /* axisswap.cpp */,
+				49A1D2E5232DD1990083346A /* cart.cpp */,
+			);
+			name = conversions;
+			path = proj/src/conversions;
+			sourceTree = SOURCE_ROOT;
+		};
+		49A1D3DE232DD39F0083346A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D40B232E1C840083346A /* common.hpp */,
+				49A1D409232E1C840083346A /* coordinateoperation.hpp */,
+				49A1D410232E1C840083346A /* coordinatesystem.hpp */,
+				49A1D40F232E1C840083346A /* crs.hpp */,
+				49A1D40E232E1C840083346A /* datum.hpp */,
+				49A1D40A232E1C840083346A /* io.hpp */,
+				49A1D40D232E1C840083346A /* metadata.hpp */,
+				49A1D411232E1C840083346A /* nn.hpp */,
+				49A1D40C232E1C840083346A /* util.hpp */,
+				49A1D3F3232DD3E80083346A /* internal */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		49A1D3F3232DD3E80083346A /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D41D232E1C940083346A /* coordinateoperation_constants.hpp */,
+				49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */,
+				49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */,
+				49A1D421232E1C940083346A /* esri_projection_mappings.hpp */,
+				49A1D41E232E1C940083346A /* include_nlohmann_json.hpp */,
+				49A1D41C232E1C940083346A /* internal.hpp */,
+				49A1D41B232E1C940083346A /* io_internal.hpp */,
+				49A1D41F232E1C940083346A /* lru_cache.hpp */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		49A1D406232E1AA10083346A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49A1D407232E1AA10083346A /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -59,7 +822,42 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D33E232DD1990083346A /* wkt2_generated_parser.h in Headers */,
+				49A1D31D232DD1990083346A /* proj_symbol_rename.h in Headers */,
+				49A1D412232E1C840083346A /* coordinateoperation.hpp in Headers */,
+				49A1D416232E1C840083346A /* metadata.hpp in Headers */,
+				49A1D42A232E1C950083346A /* coordinatesystem_internal.hpp in Headers */,
+				49A1D415232E1C840083346A /* util.hpp in Headers */,
+				49A1D3CF232DD19A0083346A /* proj.h in Headers */,
+				49A1D426232E1C950083346A /* include_nlohmann_json.hpp in Headers */,
+				49A1D317232DD1990083346A /* proj_internal.h in Headers */,
+				49A1D424232E1C950083346A /* internal.hpp in Headers */,
 				49A1D1EB232DCECA0083346A /* projios.h in Headers */,
+				49A1D41A232E1C840083346A /* nn.hpp in Headers */,
+				49A1D405232E1A3A0083346A /* proj_config.h in Headers */,
+				49A1D347232DD1990083346A /* proj_math.h in Headers */,
+				49A1D360232DD1990083346A /* wkt_parser.hpp in Headers */,
+				49A1D325232DD1990083346A /* org_proj4_PJ.h in Headers */,
+				49A1D3DC232DD19A0083346A /* wkt1_parser.h in Headers */,
+				49A1D423232E1C950083346A /* io_internal.hpp in Headers */,
+				49A1D2F1232DD1990083346A /* proj_experimental.h in Headers */,
+				49A1D3DD232DD19A0083346A /* proj_json_streaming_writer.hpp in Headers */,
+				49A1D362232DD1990083346A /* proj_api.h in Headers */,
+				49A1D428232E1C950083346A /* coordinateoperation_internal.hpp in Headers */,
+				49A1D35F232DD1990083346A /* wkt2_parser.h in Headers */,
+				49A1D418232E1C840083346A /* crs.hpp in Headers */,
+				49A1D349232DD1990083346A /* geodesic.h in Headers */,
+				49A1D2F8232DD1990083346A /* pj_list.h in Headers */,
+				49A1D413232E1C840083346A /* io.hpp in Headers */,
+				49A1D429232E1C950083346A /* esri_projection_mappings.hpp in Headers */,
+				49A1D344232DD1990083346A /* proj_constants.h in Headers */,
+				49A1D31A232DD1990083346A /* geocent.h in Headers */,
+				49A1D427232E1C950083346A /* lru_cache.hpp in Headers */,
+				49A1D419232E1C840083346A /* coordinatesystem.hpp in Headers */,
+				49A1D417232E1C840083346A /* datum.hpp in Headers */,
+				49A1D319232DD1990083346A /* wkt1_generated_parser.h in Headers */,
+				49A1D425232E1C950083346A /* coordinateoperation_constants.hpp in Headers */,
+				49A1D414232E1C840083346A /* common.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +918,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D2FD232DD1990083346A /* general_doc.dox in Resources */,
+				49A1D30D232DD1990083346A /* runmultistresstest.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +930,199 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D388232DD1990083346A /* mod_ster.cpp in Sources */,
+				49A1D3C1232DD19A0083346A /* sts.cpp in Sources */,
+				49A1D3D2232DD19A0083346A /* strtod.cpp in Sources */,
+				49A1D321232DD1990083346A /* fwd.cpp in Sources */,
+				49A1D335232DD1990083346A /* affine.cpp in Sources */,
+				49A1D3BC232DD19A0083346A /* sconics.cpp in Sources */,
+				49A1D338232DD1990083346A /* hgridshift.cpp in Sources */,
+				49A1D306232DD1990083346A /* internal.cpp in Sources */,
+				49A1D382232DD1990083346A /* krovak.cpp in Sources */,
+				49A1D341232DD1990083346A /* wkt1_generated_parser.c in Sources */,
+				49A1D32A232DD1990083346A /* ctx.cpp in Sources */,
+				49A1D3AF232DD19A0083346A /* nell.cpp in Sources */,
+				49A1D3C7232DD19A0083346A /* wag7.cpp in Sources */,
+				49A1D3B3232DD19A0083346A /* natearth.cpp in Sources */,
+				49A1D3C0232DD19A0083346A /* wag2.cpp in Sources */,
+				49A1D39B232DD19A0083346A /* mbtfpq.cpp in Sources */,
+				49A1D3A9232DD19A0083346A /* moll.cpp in Sources */,
+				49A1D33B232DD1990083346A /* strerrno.cpp in Sources */,
+				49A1D3A4232DD19A0083346A /* mbtfpp.cpp in Sources */,
+				49A1D3C2232DD19A0083346A /* putp2.cpp in Sources */,
+				49A1D374232DD1990083346A /* cc.cpp in Sources */,
+				49A1D328232DD1990083346A /* nad_cvt.cpp in Sources */,
+				49A1D315232DD1990083346A /* zpoly1.cpp in Sources */,
+				49A1D3CE232DD19A0083346A /* merc.cpp in Sources */,
+				49A1D399232DD19A0083346A /* omerc.cpp in Sources */,
+				49A1D371232DD1990083346A /* rouss.cpp in Sources */,
+				49A1D3C8232DD19A0083346A /* tobmerc.cpp in Sources */,
+				49A1D3BB232DD19A0083346A /* vandg2.cpp in Sources */,
+				49A1D2EB232DD1990083346A /* datum_set.cpp in Sources */,
+				49A1D38F232DD1990083346A /* laea.cpp in Sources */,
+				49A1D38C232DD1990083346A /* denoy.cpp in Sources */,
+				49A1D342232DD1990083346A /* datums.cpp in Sources */,
+				49A1D312232DD1990083346A /* inv.cpp in Sources */,
+				49A1D313232DD1990083346A /* utils.cpp in Sources */,
+				49A1D3CC232DD19A0083346A /* airy.cpp in Sources */,
+				49A1D3D3232DD19A0083346A /* geoc.cpp in Sources */,
+				49A1D3B9232DD19A0083346A /* aea.cpp in Sources */,
+				49A1D39F232DD19A0083346A /* collg.cpp in Sources */,
+				49A1D3CA232DD19A0083346A /* nsper.cpp in Sources */,
+				49A1D3B6232DD19A0083346A /* cea.cpp in Sources */,
+				49A1D3BF232DD19A0083346A /* eqdc.cpp in Sources */,
+				49A1D2F9232DD1990083346A /* adjlon.cpp in Sources */,
+				49A1D368232DD1990083346A /* mbt_fps.cpp in Sources */,
+				49A1D3B4232DD19A0083346A /* putp5.cpp in Sources */,
+				49A1D3B2232DD19A0083346A /* lagrng.cpp in Sources */,
+				49A1D2FA232DD1990083346A /* geocent.cpp in Sources */,
+				49A1D397232DD19A0083346A /* tcea.cpp in Sources */,
+				49A1D378232DD1990083346A /* oea.cpp in Sources */,
+				49A1D389232DD1990083346A /* times.cpp in Sources */,
+				49A1D30B232DD1990083346A /* coordinatesystem.cpp in Sources */,
+				49A1D364232DD1990083346A /* gall.cpp in Sources */,
+				49A1D3C6232DD19A0083346A /* putp3.cpp in Sources */,
+				49A1D34E232DD1990083346A /* ellps.cpp in Sources */,
+				49A1D2F5232DD1990083346A /* qsfn.cpp in Sources */,
+				49A1D30F232DD1990083346A /* 4D_api.cpp in Sources */,
+				49A1D32B232DD1990083346A /* jniproj.cpp in Sources */,
+				49A1D36F232DD1990083346A /* igh.cpp in Sources */,
+				49A1D37D232DD1990083346A /* gnom.cpp in Sources */,
+				49A1D396232DD19A0083346A /* nell_h.cpp in Sources */,
+				49A1D366232DD1990083346A /* gstmerc.cpp in Sources */,
+				49A1D324232DD1990083346A /* mlfn.cpp in Sources */,
+				49A1D3B1232DD19A0083346A /* comill.cpp in Sources */,
+				49A1D36A232DD1990083346A /* hammer.cpp in Sources */,
+				49A1D308232DD1990083346A /* metadata.cpp in Sources */,
+				49A1D32F232DD1990083346A /* gridcatalog.cpp in Sources */,
+				49A1D3AE232DD19A0083346A /* qsc.cpp in Sources */,
+				49A1D2EC232DD1990083346A /* apply_gridshift.cpp in Sources */,
+				49A1D37E232DD1990083346A /* ob_tran.cpp in Sources */,
+				49A1D376232DD1990083346A /* vandg.cpp in Sources */,
+				49A1D33C232DD1990083346A /* fileapi.cpp in Sources */,
+				49A1D300232DD1990083346A /* common.cpp in Sources */,
+				49A1D3A6232DD19A0083346A /* eck4.cpp in Sources */,
+				49A1D36E232DD1990083346A /* fahey.cpp in Sources */,
+				49A1D30E232DD1990083346A /* mutex.cpp in Sources */,
+				49A1D3AA232DD19A0083346A /* crast.cpp in Sources */,
+				49A1D2F6232DD1990083346A /* gridlist.cpp in Sources */,
+				49A1D2FE232DD1990083346A /* math.cpp in Sources */,
+				49A1D2FC232DD1990083346A /* apply_vgridshift.cpp in Sources */,
+				49A1D363232DD1990083346A /* geodesic.c in Sources */,
+				49A1D330232DD1990083346A /* gauss.cpp in Sources */,
+				49A1D301232DD1990083346A /* util.cpp in Sources */,
+				49A1D3A2232DD19A0083346A /* wink2.cpp in Sources */,
+				49A1D398232DD19A0083346A /* putp4p.cpp in Sources */,
+				49A1D387232DD1990083346A /* patterson.cpp in Sources */,
+				49A1D326232DD1990083346A /* nad_intr.cpp in Sources */,
+				49A1D331232DD1990083346A /* msfn.cpp in Sources */,
+				49A1D367232DD1990083346A /* geos.cpp in Sources */,
+				49A1D3D7232DD19A0083346A /* axisswap.cpp in Sources */,
+				49A1D375232DD1990083346A /* aeqd.cpp in Sources */,
+				49A1D37A232DD1990083346A /* lcc.cpp in Sources */,
+				49A1D307232DD1990083346A /* datum.cpp in Sources */,
+				49A1D31E232DD1990083346A /* aasincos.cpp in Sources */,
+				49A1D3C3232DD19A0083346A /* isea.cpp in Sources */,
+				49A1D379232DD1990083346A /* stere.cpp in Sources */,
+				49A1D365232DD1990083346A /* misrsom.cpp in Sources */,
+				49A1D33F232DD1990083346A /* dmstor.cpp in Sources */,
+				49A1D377232DD1990083346A /* ocea.cpp in Sources */,
+				49A1D339232DD1990083346A /* vgridshift.cpp in Sources */,
+				49A1D2FF232DD1990083346A /* internal.cpp in Sources */,
+				49A1D3CD232DD19A0083346A /* aitoff.cpp in Sources */,
+				49A1D38E232DD1990083346A /* tcc.cpp in Sources */,
+				49A1D3AD232DD19A0083346A /* latlong.cpp in Sources */,
+				49A1D39E232DD19A0083346A /* eck1.cpp in Sources */,
+				49A1D3D0232DD19A0083346A /* wkt_parser.cpp in Sources */,
+				49A1D32E232DD1990083346A /* units.cpp in Sources */,
+				49A1D304232DD1990083346A /* c_api.cpp in Sources */,
+				49A1D302232DD1990083346A /* crs.cpp in Sources */,
+				49A1D393232DD19A0083346A /* nicol.cpp in Sources */,
+				49A1D333232DD1990083346A /* horner.cpp in Sources */,
+				49A1D305232DD1990083346A /* io.cpp in Sources */,
+				49A1D39A232DD19A0083346A /* mill.cpp in Sources */,
+				49A1D390232DD1990083346A /* eck2.cpp in Sources */,
+				49A1D3C9232DD19A0083346A /* chamb.cpp in Sources */,
+				49A1D33D232DD1990083346A /* pipeline.cpp in Sources */,
+				49A1D3B0232DD19A0083346A /* eqc.cpp in Sources */,
+				49A1D2F0232DD1990083346A /* rtodms.cpp in Sources */,
+				49A1D3D6232DD19A0083346A /* geocent.cpp in Sources */,
+				49A1D372232DD1990083346A /* tmerc.cpp in Sources */,
+				49A1D3A8232DD19A0083346A /* eck5.cpp in Sources */,
+				49A1D37C232DD1990083346A /* tpeqd.cpp in Sources */,
+				49A1D34B232DD1990083346A /* release.cpp in Sources */,
+				49A1D322232DD1990083346A /* transform.cpp in Sources */,
+				49A1D3A3232DD19A0083346A /* ortho.cpp in Sources */,
+				49A1D3BD232DD19A0083346A /* robin.cpp in Sources */,
+				49A1D39D232DD19A0083346A /* sterea.cpp in Sources */,
+				49A1D37F232DD1990083346A /* urm5.cpp in Sources */,
+				49A1D373232DD1990083346A /* rpoly.cpp in Sources */,
+				49A1D337232DD1990083346A /* helmert.cpp in Sources */,
+				49A1D34A232DD1990083346A /* init.cpp in Sources */,
+				49A1D3D5232DD19A0083346A /* unitconvert.cpp in Sources */,
+				49A1D31F232DD1990083346A /* gc_reader.cpp in Sources */,
+				49A1D320232DD1990083346A /* wkt2_generated_parser.c in Sources */,
+				49A1D3A1232DD19A0083346A /* ccon.cpp in Sources */,
+				49A1D3B7232DD19A0083346A /* wag3.cpp in Sources */,
+				49A1D3D1232DD19A0083346A /* ell_set.cpp in Sources */,
+				49A1D383232DD1990083346A /* poly.cpp in Sources */,
+				49A1D2ED232DD1990083346A /* pr_list.cpp in Sources */,
+				49A1D3D4232DD19A0083346A /* noop.cpp in Sources */,
+				49A1D309232DD1990083346A /* factory.cpp in Sources */,
+				49A1D381232DD1990083346A /* august.cpp in Sources */,
+				49A1D3D8232DD19A0083346A /* cart.cpp in Sources */,
+				49A1D3AB232DD19A0083346A /* fouc_s.cpp in Sources */,
+				49A1D3C4232DD19A0083346A /* cass.cpp in Sources */,
+				49A1D395232DD19A0083346A /* eck3.cpp in Sources */,
+				49A1D303232DD1990083346A /* coordinateoperation.cpp in Sources */,
+				49A1D37B232DD1990083346A /* calcofi.cpp in Sources */,
+				49A1D3A5232DD19A0083346A /* labrd.cpp in Sources */,
+				49A1D384232DD1990083346A /* healpix.cpp in Sources */,
+				49A1D34D232DD1990083346A /* proj_mdist.cpp in Sources */,
+				49A1D3AC232DD19A0083346A /* urmfps.cpp in Sources */,
+				49A1D3B5232DD19A0083346A /* lcca.cpp in Sources */,
+				49A1D392232DD19A0083346A /* wink1.cpp in Sources */,
+				49A1D346232DD1990083346A /* proj_json_streaming_writer.cpp in Sources */,
+				49A1D327232DD1990083346A /* initcache.cpp in Sources */,
+				49A1D33A232DD1990083346A /* malloc.cpp in Sources */,
+				49A1D370232DD1990083346A /* nzmg.cpp in Sources */,
+				49A1D3BE232DD19A0083346A /* putp6.cpp in Sources */,
+				49A1D3A7232DD19A0083346A /* lask.cpp in Sources */,
+				49A1D36B232DD1990083346A /* bacon.cpp in Sources */,
+				49A1D30C232DD1990083346A /* deriv.cpp in Sources */,
+				49A1D3D9232DD19A0083346A /* wkt2_parser.cpp in Sources */,
+				49A1D391232DD1990083346A /* goode.cpp in Sources */,
+				49A1D3C5232DD19A0083346A /* loxim.cpp in Sources */,
+				49A1D36D232DD1990083346A /* natearth2.cpp in Sources */,
+				49A1D316232DD1990083346A /* tsfn.cpp in Sources */,
+				49A1D323232DD1990083346A /* phi2.cpp in Sources */,
+				49A1D36C232DD1990083346A /* gn_sinu.cpp in Sources */,
+				49A1D30A232DD1990083346A /* static.cpp in Sources */,
+				49A1D336232DD1990083346A /* deformation.cpp in Sources */,
+				49A1D38B232DD1990083346A /* bonne.cpp in Sources */,
+				49A1D369232DD1990083346A /* bertin1953.cpp in Sources */,
+				49A1D311232DD1990083346A /* gridinfo.cpp in Sources */,
+				49A1D334232DD1990083346A /* molodensky.cpp in Sources */,
+				49A1D3CB232DD19A0083346A /* vandg4.cpp in Sources */,
+				49A1D34C232DD1990083346A /* auth.cpp in Sources */,
+				49A1D386232DD1990083346A /* somerc.cpp in Sources */,
+				49A1D343232DD1990083346A /* list.cpp in Sources */,
+				49A1D3DB232DD19A0083346A /* open_lib.cpp in Sources */,
+				49A1D3DA232DD19A0083346A /* errno.cpp in Sources */,
+				49A1D38D232DD1990083346A /* larr.cpp in Sources */,
+				49A1D394232DD19A0083346A /* eqearth.cpp in Sources */,
+				49A1D31C232DD1990083346A /* log.cpp in Sources */,
+				49A1D385232DD1990083346A /* imw_p.cpp in Sources */,
+				49A1D329232DD1990083346A /* nad_init.cpp in Sources */,
+				49A1D361232DD1990083346A /* param.cpp in Sources */,
+				49A1D3BA232DD19A0083346A /* hatano.cpp in Sources */,
+				49A1D38A232DD1990083346A /* bipc.cpp in Sources */,
+				49A1D314232DD1990083346A /* factors.cpp in Sources */,
+				49A1D2EE232DD1990083346A /* wkt1_parser.cpp in Sources */,
+				49A1D3A0232DD19A0083346A /* gins8.cpp in Sources */,
+				49A1D380232DD1990083346A /* boggs.cpp in Sources */,
+				49A1D3B8232DD19A0083346A /* sch.cpp in Sources */,
+				49A1D39C232DD19A0083346A /* lsat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +1257,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "proj-ios/Info.plist";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/proj/include/**";
+				INFOPLIST_FILE = projios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,7 +1282,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "proj-ios/Info.plist";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/proj/include/**";
+				INFOPLIST_FILE = projios/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
