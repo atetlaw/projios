@@ -1,6 +1,6 @@
 //
-//  proj_ios.h
-//  proj-ios
+//  projios.h
+//  projios
 //
 //  Created by Andrew Tetlaw on 15/9/19.
 //  Copyright © 2019 dexagogo. All rights reserved.

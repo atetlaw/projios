@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49A1D1EB232DCECA0083346A /* proj_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D1E9232DCECA0083346A /* proj_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49A1D1EB232DCECA0083346A /* projios.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D1E9232DCECA0083346A /* projios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49A1D1E6232DCEC90083346A /* proj_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = proj_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49A1D1E9232DCECA0083346A /* proj_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = proj_ios.h; sourceTree = "<group>"; };
+		49A1D1E6232DCEC90083346A /* projios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = projios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A1D1E9232DCECA0083346A /* projios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projios.h; sourceTree = "<group>"; };
 		49A1D1EA232DCECA0083346A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -30,7 +30,7 @@
 		49A1D1DC232DCEC90083346A = {
 			isa = PBXGroup;
 			children = (
-				49A1D1E8232DCECA0083346A /* proj-ios */,
+				49A1D1E8232DCECA0083346A /* projios */,
 				49A1D1E7232DCEC90083346A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,18 +38,18 @@
 		49A1D1E7232DCEC90083346A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49A1D1E6232DCEC90083346A /* proj_ios.framework */,
+				49A1D1E6232DCEC90083346A /* projios.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49A1D1E8232DCECA0083346A /* proj-ios */ = {
+		49A1D1E8232DCECA0083346A /* projios */ = {
 			isa = PBXGroup;
 			children = (
-				49A1D1E9232DCECA0083346A /* proj_ios.h */,
+				49A1D1E9232DCECA0083346A /* projios.h */,
 				49A1D1EA232DCECA0083346A /* Info.plist */,
 			);
-			path = "proj-ios";
+			path = projios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,16 +59,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A1D1EB232DCECA0083346A /* proj_ios.h in Headers */,
+				49A1D1EB232DCECA0083346A /* projios.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		49A1D1E5232DCEC90083346A /* proj-ios */ = {
+		49A1D1E5232DCEC90083346A /* projios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "proj-ios" */;
+			buildConfigurationList = 49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "projios" */;
 			buildPhases = (
 				49A1D1E1232DCEC90083346A /* Headers */,
 				49A1D1E2232DCEC90083346A /* Sources */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "proj-ios";
+			name = projios;
 			productName = "proj-ios";
-			productReference = 49A1D1E6232DCEC90083346A /* proj_ios.framework */;
+			productReference = 49A1D1E6232DCEC90083346A /* projios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "proj-ios" */;
+			buildConfigurationList = 49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "projios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49A1D1E5232DCEC90083346A /* proj-ios */,
+				49A1D1E5232DCEC90083346A /* projios */,
 			);
 		};
 /* End PBXProject section */
@@ -271,7 +271,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dexagogo.proj-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexagogo.projios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +295,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dexagogo.proj-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dexagogo.projios;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "proj-ios" */ = {
+		49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "projios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A1D1EC232DCECA0083346A /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "proj-ios" */ = {
+		49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "projios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A1D1EF232DCECA0083346A /* Debug */,
