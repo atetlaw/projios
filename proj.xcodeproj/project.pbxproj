@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49A1D1EB232DCECA0083346A /* projios.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D1E9232DCECA0083346A /* projios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A1D2EB232DD1990083346A /* datum_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F2232DD1920083346A /* datum_set.cpp */; };
 		49A1D2EC232DD1990083346A /* apply_gridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F3232DD1920083346A /* apply_gridshift.cpp */; };
 		49A1D2ED232DD1990083346A /* pr_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D1F4232DD1920083346A /* pr_list.cpp */; };
@@ -20,7 +19,6 @@
 		49A1D2F9232DD1990083346A /* adjlon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D201232DD1920083346A /* adjlon.cpp */; };
 		49A1D2FA232DD1990083346A /* geocent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D202232DD1920083346A /* geocent.cpp */; };
 		49A1D2FC232DD1990083346A /* apply_vgridshift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D204232DD1920083346A /* apply_vgridshift.cpp */; };
-		49A1D2FD232DD1990083346A /* general_doc.dox in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D205232DD1920083346A /* general_doc.dox */; };
 		49A1D2FE232DD1990083346A /* math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D206232DD1930083346A /* math.cpp */; };
 		49A1D2FF232DD1990083346A /* internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D207232DD1930083346A /* internal.cpp */; };
 		49A1D300232DD1990083346A /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D209232DD1930083346A /* common.cpp */; };
@@ -36,7 +34,6 @@
 		49A1D30A232DD1990083346A /* static.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D213232DD1930083346A /* static.cpp */; };
 		49A1D30B232DD1990083346A /* coordinatesystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D214232DD1930083346A /* coordinatesystem.cpp */; };
 		49A1D30C232DD1990083346A /* deriv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D215232DD1930083346A /* deriv.cpp */; };
-		49A1D30D232DD1990083346A /* runmultistresstest.sh in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D216232DD1930083346A /* runmultistresstest.sh */; };
 		49A1D30E232DD1990083346A /* mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D217232DD1930083346A /* mutex.cpp */; };
 		49A1D30F232DD1990083346A /* 4D_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D218232DD1930083346A /* 4D_api.cpp */; };
 		49A1D311232DD1990083346A /* gridinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D21A232DD1930083346A /* gridinfo.cpp */; };
@@ -57,7 +54,6 @@
 		49A1D322232DD1990083346A /* transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22B232DD1940083346A /* transform.cpp */; };
 		49A1D323232DD1990083346A /* phi2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22C232DD1940083346A /* phi2.cpp */; };
 		49A1D324232DD1990083346A /* mlfn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22D232DD1940083346A /* mlfn.cpp */; };
-		49A1D325232DD1990083346A /* org_proj4_PJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D22E232DD1940083346A /* org_proj4_PJ.h */; };
 		49A1D326232DD1990083346A /* nad_intr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D22F232DD1940083346A /* nad_intr.cpp */; };
 		49A1D327232DD1990083346A /* initcache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D230232DD1940083346A /* initcache.cpp */; };
 		49A1D328232DD1990083346A /* nad_cvt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49A1D231232DD1940083346A /* nad_cvt.cpp */; };
@@ -239,12 +235,11 @@
 		49A1D428232E1C950083346A /* coordinateoperation_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D420232E1C940083346A /* coordinateoperation_internal.hpp */; };
 		49A1D429232E1C950083346A /* esri_projection_mappings.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D421232E1C940083346A /* esri_projection_mappings.hpp */; };
 		49A1D42A232E1C950083346A /* coordinatesystem_internal.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */; };
-		49A1D42C232E1DDE0083346A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 49A1D42B232E1DDE0083346A /* README.md */; };
+		49A1D430232E29C40083346A /* proj.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A1D42F232E29C40083346A /* proj.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		49A1D1E6232DCEC90083346A /* projios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = projios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49A1D1E9232DCECA0083346A /* projios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projios.h; sourceTree = "<group>"; };
+		49A1D1E6232DCEC90083346A /* proj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = proj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A1D1EA232DCECA0083346A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A1D1F2232DD1920083346A /* datum_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = datum_set.cpp; path = proj/src/datum_set.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D1F3232DD1920083346A /* apply_gridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apply_gridshift.cpp; path = proj/src/apply_gridshift.cpp; sourceTree = SOURCE_ROOT; };
@@ -258,7 +253,6 @@
 		49A1D201232DD1920083346A /* adjlon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adjlon.cpp; path = proj/src/adjlon.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D202232DD1920083346A /* geocent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = geocent.cpp; path = proj/src/geocent.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D204232DD1920083346A /* apply_vgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apply_vgridshift.cpp; path = proj/src/apply_vgridshift.cpp; sourceTree = SOURCE_ROOT; };
-		49A1D205232DD1920083346A /* general_doc.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = general_doc.dox; path = proj/src/general_doc.dox; sourceTree = SOURCE_ROOT; };
 		49A1D206232DD1930083346A /* math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = math.cpp; path = proj/src/math.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D207232DD1930083346A /* internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = internal.cpp; path = proj/src/internal.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D209232DD1930083346A /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
@@ -274,7 +268,6 @@
 		49A1D213232DD1930083346A /* static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = static.cpp; sourceTree = "<group>"; };
 		49A1D214232DD1930083346A /* coordinatesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinatesystem.cpp; sourceTree = "<group>"; };
 		49A1D215232DD1930083346A /* deriv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = deriv.cpp; path = proj/src/deriv.cpp; sourceTree = SOURCE_ROOT; };
-		49A1D216232DD1930083346A /* runmultistresstest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = runmultistresstest.sh; path = proj/src/runmultistresstest.sh; sourceTree = SOURCE_ROOT; };
 		49A1D217232DD1930083346A /* mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mutex.cpp; path = proj/src/mutex.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D218232DD1930083346A /* 4D_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 4D_api.cpp; path = proj/src/4D_api.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D21A232DD1930083346A /* gridinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = gridinfo.cpp; path = proj/src/gridinfo.cpp; sourceTree = SOURCE_ROOT; };
@@ -295,7 +288,6 @@
 		49A1D22B232DD1940083346A /* transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = transform.cpp; path = proj/src/transform.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D22C232DD1940083346A /* phi2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = phi2.cpp; path = proj/src/phi2.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D22D232DD1940083346A /* mlfn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mlfn.cpp; path = proj/src/mlfn.cpp; sourceTree = SOURCE_ROOT; };
-		49A1D22E232DD1940083346A /* org_proj4_PJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = org_proj4_PJ.h; path = proj/src/org_proj4_PJ.h; sourceTree = SOURCE_ROOT; };
 		49A1D22F232DD1940083346A /* nad_intr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nad_intr.cpp; path = proj/src/nad_intr.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D230232DD1940083346A /* initcache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = initcache.cpp; path = proj/src/initcache.cpp; sourceTree = SOURCE_ROOT; };
 		49A1D231232DD1940083346A /* nad_cvt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nad_cvt.cpp; path = proj/src/nad_cvt.cpp; sourceTree = SOURCE_ROOT; };
@@ -478,6 +470,7 @@
 		49A1D421232E1C940083346A /* esri_projection_mappings.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = esri_projection_mappings.hpp; path = proj/include/proj/internal/esri_projection_mappings.hpp; sourceTree = SOURCE_ROOT; };
 		49A1D422232E1C940083346A /* coordinatesystem_internal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = coordinatesystem_internal.hpp; path = proj/include/proj/internal/coordinatesystem_internal.hpp; sourceTree = SOURCE_ROOT; };
 		49A1D42B232E1DDE0083346A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		49A1D42F232E29C40083346A /* proj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proj.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -506,7 +499,7 @@
 		49A1D1E7232DCEC90083346A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49A1D1E6232DCEC90083346A /* projios.framework */,
+				49A1D1E6232DCEC90083346A /* proj.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -514,7 +507,8 @@
 		49A1D1E8232DCECA0083346A /* projios */ = {
 			isa = PBXGroup;
 			children = (
-				49A1D1E9232DCECA0083346A /* projios.h */,
+				49A1D42F232E29C40083346A /* proj.h */,
+				49A1D404232E1A390083346A /* proj_config.h */,
 				49A1D1EA232DCECA0083346A /* Info.plist */,
 			);
 			path = projios;
@@ -523,7 +517,6 @@
 		49A1D1F1232DD16C0083346A /* proj */ = {
 			isa = PBXGroup;
 			children = (
-				49A1D404232E1A390083346A /* proj_config.h */,
 				49A1D3DE232DD39F0083346A /* include */,
 				49A1D2DF232DD1990083346A /* conversions */,
 				49A1D208232DD1930083346A /* iso19111 */,
@@ -590,10 +583,8 @@
 				49A1D1F5232DD1920083346A /* wkt1_parser.cpp */,
 				49A1D2E6232DD1990083346A /* wkt2_parser.cpp */,
 				49A1D21E232DD1930083346A /* zpoly1.cpp */,
-				49A1D205232DD1920083346A /* general_doc.dox */,
 				49A1D223232DD1930083346A /* geocent.h */,
 				49A1D253232DD1970083346A /* geodesic.h */,
-				49A1D22E232DD1940083346A /* org_proj4_PJ.h */,
 				49A1D200232DD1920083346A /* pj_list.h */,
 				49A1D26D232DD1980083346A /* proj_api.h */,
 				49A1D24E232DD1960083346A /* proj_constants.h */,
@@ -608,7 +599,6 @@
 				49A1D26A232DD1980083346A /* wkt2_parser.h */,
 				49A1D2EA232DD1990083346A /* proj_json_streaming_writer.hpp */,
 				49A1D26B232DD1980083346A /* wkt_parser.hpp */,
-				49A1D216232DD1930083346A /* runmultistresstest.sh */,
 			);
 			name = proj;
 			path = projios;
@@ -825,6 +815,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49A1D430232E29C40083346A /* proj.h in Headers */,
 				49A1D33E232DD1990083346A /* wkt2_generated_parser.h in Headers */,
 				49A1D31D232DD1990083346A /* proj_symbol_rename.h in Headers */,
 				49A1D412232E1C840083346A /* coordinateoperation.hpp in Headers */,
@@ -835,12 +826,10 @@
 				49A1D426232E1C950083346A /* include_nlohmann_json.hpp in Headers */,
 				49A1D317232DD1990083346A /* proj_internal.h in Headers */,
 				49A1D424232E1C950083346A /* internal.hpp in Headers */,
-				49A1D1EB232DCECA0083346A /* projios.h in Headers */,
 				49A1D41A232E1C840083346A /* nn.hpp in Headers */,
 				49A1D405232E1A3A0083346A /* proj_config.h in Headers */,
 				49A1D347232DD1990083346A /* proj_math.h in Headers */,
 				49A1D360232DD1990083346A /* wkt_parser.hpp in Headers */,
-				49A1D325232DD1990083346A /* org_proj4_PJ.h in Headers */,
 				49A1D3DC232DD19A0083346A /* wkt1_parser.h in Headers */,
 				49A1D423232E1C950083346A /* io_internal.hpp in Headers */,
 				49A1D2F1232DD1990083346A /* proj_experimental.h in Headers */,
@@ -867,22 +856,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		49A1D1E5232DCEC90083346A /* projios */ = {
+		49A1D1E5232DCEC90083346A /* proj */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "projios" */;
+			buildConfigurationList = 49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "proj" */;
 			buildPhases = (
+				49A1D431232E2A1F0083346A /* Update proj.h header */,
 				49A1D1E1232DCEC90083346A /* Headers */,
 				49A1D1E2232DCEC90083346A /* Sources */,
 				49A1D1E3232DCEC90083346A /* Frameworks */,
-				49A1D1E4232DCEC90083346A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = projios;
+			name = proj;
 			productName = "proj-ios";
-			productReference = 49A1D1E6232DCEC90083346A /* projios.framework */;
+			productReference = 49A1D1E6232DCEC90083346A /* proj.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -899,7 +888,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "projios" */;
+			buildConfigurationList = 49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "proj" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -911,23 +900,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49A1D1E5232DCEC90083346A /* projios */,
+				49A1D1E5232DCEC90083346A /* proj */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		49A1D1E4232DCEC90083346A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		49A1D431232E2A1F0083346A /* Update proj.h header */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49A1D42C232E1DDE0083346A /* README.md in Resources */,
-				49A1D2FD232DD1990083346A /* general_doc.dox in Resources */,
-				49A1D30D232DD1990083346A /* runmultistresstest.sh in Resources */,
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update proj.h header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp \"${SRCROOT}/proj/src/proj.h\" \"${SRCROOT}/projios/proj.h\"\nexit 0\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49A1D1E2232DCEC90083346A /* Sources */ = {
@@ -1185,7 +1182,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1241,7 +1238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1255,9 +1252,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = WHYAM6NMLR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1269,8 +1266,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dexagogo.projios;
+				PRODUCT_BUNDLE_IDENTIFIER = osgeo.proj;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1280,9 +1278,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = WHYAM6NMLR;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1294,8 +1292,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dexagogo.projios;
+				PRODUCT_BUNDLE_IDENTIFIER = osgeo.proj;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1304,7 +1303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "projios" */ = {
+		49A1D1E0232DCEC90083346A /* Build configuration list for PBXProject "proj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A1D1EC232DCECA0083346A /* Debug */,
@@ -1313,7 +1312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "projios" */ = {
+		49A1D1EE232DCECA0083346A /* Build configuration list for PBXNativeTarget "proj" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				49A1D1EF232DCECA0083346A /* Debug */,

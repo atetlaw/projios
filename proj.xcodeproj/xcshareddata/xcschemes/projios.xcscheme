@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49A1D1E5232DCEC90083346A"
-               BuildableName = "projios.framework"
-               BlueprintName = "projios"
-               ReferencedContainer = "container:projios.xcodeproj">
+               BuildableName = "proj.framework"
+               BlueprintName = "proj"
+               ReferencedContainer = "container:proj.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49A1D1E5232DCEC90083346A"
-            BuildableName = "projios.framework"
-            BlueprintName = "projios"
-            ReferencedContainer = "container:projios.xcodeproj">
+            BuildableName = "proj.framework"
+            BlueprintName = "proj"
+            ReferencedContainer = "container:proj.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49A1D1E5232DCEC90083346A"
-            BuildableName = "projios.framework"
-            BlueprintName = "projios"
-            ReferencedContainer = "container:projios.xcodeproj">
+            BuildableName = "proj.framework"
+            BlueprintName = "proj"
+            ReferencedContainer = "container:proj.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
