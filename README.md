@@ -15,7 +15,7 @@ and run ```carthage update```
 
 ## Usage
 
-* Include built proj4.framework into xcode project and add header
+* Include built proj.framework into xcode project and add header
 ```swift
 import proj
 ```
