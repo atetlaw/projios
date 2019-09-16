@@ -22,9 +22,9 @@ import proj
 
 ## Requirements
 
-Requires `libsqlite3` (included)
+Requires `libsqlite3` (linked)
 
-Proj 6.2.0 requires `proj.db`, a sqlite file, at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
+Proj 6.2.0 requires `proj.db` at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
 
 What I did is:
 * take the file add it to my main app project
@@ -34,7 +34,7 @@ What I did is:
 setenv("PROJ_LIB", Bundle.main.bundlePath, 1)
 ```
 
-If you want to generate the db file yourself, you have to:
+If you want to generate the db file yourself:
 
 * `$ brew install autoconf automake libtool` (if you don't have them installed like me)
 * `cd` to the main `proj` directory (where the proj submodule code resides)
@@ -45,8 +45,6 @@ If you want to generate the db file yourself, you have to:
 
 ## Documentation
 Full proj documentation can be found at https://proj.org
-
-PROJ contributors (2019). 
 
 ## License
 [MIT](https://github.com/OSGeo/PROJ/blob/master/COPYING)
