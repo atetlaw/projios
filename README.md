@@ -4,7 +4,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-Uses PROJ coordinate transformation software library; Open Source Geospatial Foundation; Version 6.2.0 - https://github.com/OSGeo/PROJ
+Uses PROJ coordinate transformation software library; Open Source Geospatial Foundation; Version 7.0 - https://github.com/OSGeo/PROJ
 
 ## Build
 Add this repository to your projects Cartfile
@@ -24,7 +24,7 @@ import proj
 
 Requires `libsqlite3` (linked)
 
-Proj 6.2.0 requires `proj.db` at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
+Proj 7.0 requires `proj.db` at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
 
 What I did is:
 * take the file add it to my main app project

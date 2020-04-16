@@ -13,8 +13,8 @@
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
 
-/* Define to 1 if you have the <jni.h> header file. */
-/* #undef HAVE_JNI_H */
+/* Define to 1 if you have the `dl' library (-ldl). */
+#define HAVE_LIBDL 1
 
 /* Define to 1 if you have the `m' library (-lm). */
 #define HAVE_LIBM 1
@@ -29,7 +29,7 @@
 #define HAVE_MEMORY_H 1
 
 /* Define if your pthreads implementation have PTHREAD_MUTEX_RECURSIVE */
-#define HAVE_PTHREAD_MUTEX_RECURSIVE /**/
+#define HAVE_PTHREAD_MUTEX_RECURSIVE
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -55,9 +55,6 @@
 /* Define to 1 if you have the <unistd.h> header file. */
 #define HAVE_UNISTD_H 1
 
-/* Enabled for Java/JNI Support */
-/* #undef JNI_ENABLED */
-
 /* Define to the sub-directory where libtool stores uninstalled libraries. */
 #define LT_OBJDIR ".libs/"
 
@@ -80,10 +77,10 @@
 #define PACKAGE_URL "https://proj.org"
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "6.2.0"
+#define PACKAGE_VERSION "7.0"
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "6.2.0"
+#define VERSION "7.0"
