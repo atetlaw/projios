@@ -36,7 +36,7 @@ setenv("PROJ_LIB", Bundle.main.bundlePath, 1)
 
 If you want to generate the db file yourself:
 
-* `$ brew install autoconf automake libtool` (if you don't have them installed like me)
+* `$ brew install autoconf automake libtool libtiff` (if you don't have them installed like me, also 7.0 requires `libtiff`)
 * `cd` to the main `proj` directory (where the proj submodule code resides)
 * run `$ ./autogen.sh`
 * run `$ ./configure`

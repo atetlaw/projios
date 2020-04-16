@@ -150,7 +150,6 @@
 		493390B724485B5000E8A1AA /* proj_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49338FC624485B4B00E8A1AA /* proj_internal.h */; };
 		493390B824485B5000E8A1AA /* wkt1_generated_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 49338FC724485B4B00E8A1AA /* wkt1_generated_parser.c */; };
 		493390B924485B5000E8A1AA /* filemanager.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49338FC824485B4B00E8A1AA /* filemanager.hpp */; };
-		493390BA24485B5000E8A1AA /* proj_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 49338FC924485B4B00E8A1AA /* proj_config.h */; };
 		493390BB24485B5000E8A1AA /* wkt2_generated_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 49338FCC24485B4B00E8A1AA /* wkt2_generated_parser.h */; };
 		493390BC24485B5000E8A1AA /* datum_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49338FCE24485B4B00E8A1AA /* datum_set.cpp */; };
 		493390BD24485B5000E8A1AA /* geodesic.c in Sources */ = {isa = PBXBuildFile; fileRef = 49338FCF24485B4B00E8A1AA /* geodesic.c */; };
@@ -168,7 +167,6 @@
 		493390C924485B5000E8A1AA /* proj_json_streaming_writer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 49338FDE24485B4C00E8A1AA /* proj_json_streaming_writer.hpp */; };
 		493390CA24485B5000E8A1AA /* wkt2_generated_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 49338FDF24485B4C00E8A1AA /* wkt2_generated_parser.c */; };
 		493390CB24485B5000E8A1AA /* proj_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 49338FE024485B4C00E8A1AA /* proj_api.h */; };
-		493390CC24485B5000E8A1AA /* wkt2_grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = 49338FE124485B4C00E8A1AA /* wkt2_grammar.y */; };
 		493390CD24485B5000E8A1AA /* auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49338FE324485B4C00E8A1AA /* auth.cpp */; };
 		493390CE24485B5000E8A1AA /* filemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49338FE424485B4C00E8A1AA /* filemanager.cpp */; };
 		493390CF24485B5000E8A1AA /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49338FE524485B4D00E8A1AA /* param.cpp */; };
@@ -211,7 +209,6 @@
 		493390F524485B5000E8A1AA /* pipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4933902124485B4F00E8A1AA /* pipeline.cpp */; };
 		493390F624485B5000E8A1AA /* 4D_api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4933902224485B4F00E8A1AA /* 4D_api.cpp */; };
 		493390F724485B5000E8A1AA /* inv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4933902324485B4F00E8A1AA /* inv.cpp */; };
-		493390F824485B5000E8A1AA /* wkt1_grammar.y in Sources */ = {isa = PBXBuildFile; fileRef = 4933902424485B4F00E8A1AA /* wkt1_grammar.y */; };
 		493390F924485B5000E8A1AA /* proj_experimental.h in Headers */ = {isa = PBXBuildFile; fileRef = 4933902524485B4F00E8A1AA /* proj_experimental.h */; };
 		493390FA24485B5000E8A1AA /* tracing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4933902624485B4F00E8A1AA /* tracing.cpp */; };
 		493390FB24485B5000E8A1AA /* wkt1_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4933902824485B5000E8A1AA /* wkt1_parser.cpp */; };
@@ -484,7 +481,6 @@
 		49338FC624485B4B00E8A1AA /* proj_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_internal.h; path = src/proj_internal.h; sourceTree = "<group>"; };
 		49338FC724485B4B00E8A1AA /* wkt1_generated_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wkt1_generated_parser.c; path = src/wkt1_generated_parser.c; sourceTree = "<group>"; };
 		49338FC824485B4B00E8A1AA /* filemanager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = filemanager.hpp; path = src/filemanager.hpp; sourceTree = "<group>"; };
-		49338FC924485B4B00E8A1AA /* proj_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_config.h; path = src/proj_config.h; sourceTree = "<group>"; };
 		49338FCC24485B4B00E8A1AA /* wkt2_generated_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wkt2_generated_parser.h; path = src/wkt2_generated_parser.h; sourceTree = "<group>"; };
 		49338FCE24485B4B00E8A1AA /* datum_set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = datum_set.cpp; path = src/datum_set.cpp; sourceTree = "<group>"; };
 		49338FCF24485B4B00E8A1AA /* geodesic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = geodesic.c; path = src/geodesic.c; sourceTree = "<group>"; };
@@ -492,7 +488,6 @@
 		49338FD124485B4B00E8A1AA /* pr_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pr_list.cpp; path = src/pr_list.cpp; sourceTree = "<group>"; };
 		49338FD224485B4B00E8A1AA /* networkfilemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = networkfilemanager.cpp; path = src/networkfilemanager.cpp; sourceTree = "<group>"; };
 		49338FD324485B4B00E8A1AA /* phi2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = phi2.cpp; path = src/phi2.cpp; sourceTree = "<group>"; };
-		49338FD424485B4B00E8A1AA /* proj_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = proj_config.h.in; path = src/proj_config.h.in; sourceTree = "<group>"; };
 		49338FD524485B4B00E8A1AA /* proj_json_streaming_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = proj_json_streaming_writer.cpp; path = src/proj_json_streaming_writer.cpp; sourceTree = "<group>"; };
 		49338FD624485B4C00E8A1AA /* ellps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ellps.cpp; path = src/ellps.cpp; sourceTree = "<group>"; };
 		49338FD724485B4C00E8A1AA /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utils.cpp; path = src/utils.cpp; sourceTree = "<group>"; };
@@ -503,7 +498,6 @@
 		49338FDE24485B4C00E8A1AA /* proj_json_streaming_writer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = proj_json_streaming_writer.hpp; path = src/proj_json_streaming_writer.hpp; sourceTree = "<group>"; };
 		49338FDF24485B4C00E8A1AA /* wkt2_generated_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wkt2_generated_parser.c; path = src/wkt2_generated_parser.c; sourceTree = "<group>"; };
 		49338FE024485B4C00E8A1AA /* proj_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_api.h; path = src/proj_api.h; sourceTree = "<group>"; };
-		49338FE124485B4C00E8A1AA /* wkt2_grammar.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = wkt2_grammar.y; path = src/wkt2_grammar.y; sourceTree = "<group>"; };
 		49338FE324485B4C00E8A1AA /* auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = auth.cpp; path = src/auth.cpp; sourceTree = "<group>"; };
 		49338FE424485B4C00E8A1AA /* filemanager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = filemanager.cpp; path = src/filemanager.cpp; sourceTree = "<group>"; };
 		49338FE524485B4D00E8A1AA /* param.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = param.cpp; path = src/param.cpp; sourceTree = "<group>"; };
@@ -559,7 +553,6 @@
 		4933902124485B4F00E8A1AA /* pipeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pipeline.cpp; path = src/pipeline.cpp; sourceTree = "<group>"; };
 		4933902224485B4F00E8A1AA /* 4D_api.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = 4D_api.cpp; path = src/4D_api.cpp; sourceTree = "<group>"; };
 		4933902324485B4F00E8A1AA /* inv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = inv.cpp; path = src/inv.cpp; sourceTree = "<group>"; };
-		4933902424485B4F00E8A1AA /* wkt1_grammar.y */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.yacc; name = wkt1_grammar.y; path = src/wkt1_grammar.y; sourceTree = "<group>"; };
 		4933902524485B4F00E8A1AA /* proj_experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = proj_experimental.h; path = src/proj_experimental.h; sourceTree = "<group>"; };
 		4933902624485B4F00E8A1AA /* tracing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tracing.cpp; path = src/tracing.cpp; sourceTree = "<group>"; };
 		4933902824485B5000E8A1AA /* wkt1_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = wkt1_parser.cpp; path = src/wkt1_parser.cpp; sourceTree = "<group>"; };
@@ -632,8 +625,6 @@
 				49338FB724485B4A00E8A1AA /* pj_list.h */,
 				49338FD124485B4B00E8A1AA /* pr_list.cpp */,
 				49338FE024485B4C00E8A1AA /* proj_api.h */,
-				49338FC924485B4B00E8A1AA /* proj_config.h */,
-				49338FD424485B4B00E8A1AA /* proj_config.h.in */,
 				4933900224485B4E00E8A1AA /* proj_constants.h */,
 				4933902524485B4F00E8A1AA /* proj_experimental.h */,
 				49338FC624485B4B00E8A1AA /* proj_internal.h */,
@@ -658,12 +649,10 @@
 				49338F9924485B4A00E8A1AA /* wkt_parser.hpp */,
 				49338FC724485B4B00E8A1AA /* wkt1_generated_parser.c */,
 				4933902024485B4F00E8A1AA /* wkt1_generated_parser.h */,
-				4933902424485B4F00E8A1AA /* wkt1_grammar.y */,
 				4933902824485B5000E8A1AA /* wkt1_parser.cpp */,
 				49338FDB24485B4C00E8A1AA /* wkt1_parser.h */,
 				49338FDF24485B4C00E8A1AA /* wkt2_generated_parser.c */,
 				49338FCC24485B4B00E8A1AA /* wkt2_generated_parser.h */,
-				49338FE124485B4C00E8A1AA /* wkt2_grammar.y */,
 				49338FEA24485B4D00E8A1AA /* wkt2_parser.cpp */,
 				4933901324485B4E00E8A1AA /* wkt2_parser.h */,
 				4933901824485B4E00E8A1AA /* zpoly1.cpp */,
@@ -1047,7 +1036,6 @@
 			files = (
 				493390DF24485B5000E8A1AA /* proj_constants.h in Headers */,
 				493390B424485B5000E8A1AA /* proj_symbol_rename.h in Headers */,
-				493390BA24485B5000E8A1AA /* proj_config.h in Headers */,
 				4933909A24485B5000E8A1AA /* wkt_parser.hpp in Headers */,
 				493390BB24485B5000E8A1AA /* wkt2_generated_parser.h in Headers */,
 				493390B724485B5000E8A1AA /* proj_internal.h in Headers */,
@@ -1219,7 +1207,6 @@
 				4933906D24485B5000E8A1AA /* wink2.cpp in Sources */,
 				4933905D24485B5000E8A1AA /* wink1.cpp in Sources */,
 				4933909F24485B5000E8A1AA /* crs.cpp in Sources */,
-				493390F824485B5000E8A1AA /* wkt1_grammar.y in Sources */,
 				493390EC24485B5000E8A1AA /* dmstor.cpp in Sources */,
 				4933909B24485B5000E8A1AA /* gauss.cpp in Sources */,
 				4933905324485B5000E8A1AA /* mod_ster.cpp in Sources */,
@@ -1289,7 +1276,6 @@
 				4933905E24485B5000E8A1AA /* nicol.cpp in Sources */,
 				4933908524485B5000E8A1AA /* hatano.cpp in Sources */,
 				4933909224485B5000E8A1AA /* wag7.cpp in Sources */,
-				493390CC24485B5000E8A1AA /* wkt2_grammar.y in Sources */,
 				4933909E24485B5000E8A1AA /* util.cpp in Sources */,
 				4933907C24485B5000E8A1AA /* comill.cpp in Sources */,
 				4933905024485B5000E8A1AA /* imw_p.cpp in Sources */,
