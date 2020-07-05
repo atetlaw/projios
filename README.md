@@ -4,7 +4,7 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
-Uses PROJ coordinate transformation software library; Open Source Geospatial Foundation; Version 7.0 - https://github.com/OSGeo/PROJ
+Uses PROJ coordinate transformation software library; Open Source Geospatial Foundation; Version 7.1.0 - https://github.com/OSGeo/PROJ
 
 ## Build
 Add this repository to your projects Cartfile
@@ -24,7 +24,7 @@ import proj
 
 Requires `libsqlite3` (linked)
 
-Proj 7.0 requires `proj.db` at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
+Proj requires `proj.db` at runtime. [proj.db](https://github.com/atetlaw/projios/blob/master/proj.db) is the generated db file.
 
 What I did is:
 * take the file add it to my main app project
@@ -36,7 +36,7 @@ setenv("PROJ_LIB", Bundle.main.bundlePath, 1)
 
 If you want to generate the db file yourself:
 
-* `$ brew install autoconf automake libtool libtiff` (if you don't have them installed like me, also 7.0 requires `libtiff`)
+* `$ brew install autoconf automake libtool libtiff` (if you don't have them installed like me)
 * `cd` to the main `proj` directory (where the proj submodule code resides)
 * run `$ ./autogen.sh`
 * run `$ ./configure`
