@@ -48,7 +48,6 @@
 		49E2F3FC24B1546F006272DE /* gauss.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F23824B1546E006272DE /* gauss.cpp */; };
 		49E2F3FD24B1546F006272DE /* fileapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F23924B1546E006272DE /* fileapi.cpp */; };
 		49E2F3FE24B1546F006272DE /* proj_constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E2F23B24B1546E006272DE /* proj_constants.h */; };
-		49E2F3FF24B1546F006272DE /* proj_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E2F23D24B1546E006272DE /* proj_config.h */; };
 		49E2F40024B1546F006272DE /* ellps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F23E24B1546E006272DE /* ellps.cpp */; };
 		49E2F40124B1546F006272DE /* datums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F23F24B1546E006272DE /* datums.cpp */; };
 		49E2F40224B1546F006272DE /* geoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F24124B1546E006272DE /* geoc.cpp */; };
@@ -255,18 +254,6 @@
 		49E2F21224B1546E006272DE /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
 		49E2F21324B1546E006272DE /* static.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = static.cpp; sourceTree = "<group>"; };
 		49E2F21424B1546E006272DE /* coordinatesystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = coordinatesystem.cpp; sourceTree = "<group>"; };
-		49E2F21624B1546E006272DE /* crs.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crs.Plo; sourceTree = "<group>"; };
-		49E2F21724B1546E006272DE /* util.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = util.Plo; sourceTree = "<group>"; };
-		49E2F21824B1546E006272DE /* common.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.Plo; sourceTree = "<group>"; };
-		49E2F21924B1546E006272DE /* coordinateoperation.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coordinateoperation.Plo; sourceTree = "<group>"; };
-		49E2F21A24B1546E006272DE /* c_api.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = c_api.Plo; sourceTree = "<group>"; };
-		49E2F21B24B1546E006272DE /* internal.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = internal.Plo; sourceTree = "<group>"; };
-		49E2F21C24B1546E006272DE /* datum.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datum.Plo; sourceTree = "<group>"; };
-		49E2F21D24B1546E006272DE /* metadata.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metadata.Plo; sourceTree = "<group>"; };
-		49E2F21E24B1546E006272DE /* io.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = io.Plo; sourceTree = "<group>"; };
-		49E2F21F24B1546E006272DE /* coordinatesystem.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = coordinatesystem.Plo; sourceTree = "<group>"; };
-		49E2F22024B1546E006272DE /* static.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = static.Plo; sourceTree = "<group>"; };
-		49E2F22124B1546E006272DE /* factory.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = factory.Plo; sourceTree = "<group>"; };
 		49E2F22324B1546E006272DE /* horner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = horner.cpp; sourceTree = "<group>"; };
 		49E2F22424B1546E006272DE /* molodensky.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = molodensky.cpp; sourceTree = "<group>"; };
 		49E2F22524B1546E006272DE /* defmodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = defmodel.cpp; sourceTree = "<group>"; };
@@ -277,20 +264,11 @@
 		49E2F22A24B1546E006272DE /* deformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deformation.cpp; sourceTree = "<group>"; };
 		49E2F22B24B1546E006272DE /* helmert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helmert.cpp; sourceTree = "<group>"; };
 		49E2F22C24B1546E006272DE /* hgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hgridshift.cpp; sourceTree = "<group>"; };
-		49E2F22E24B1546E006272DE /* molodensky.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = molodensky.Plo; sourceTree = "<group>"; };
-		49E2F22F24B1546E006272DE /* horner.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = horner.Plo; sourceTree = "<group>"; };
-		49E2F23024B1546E006272DE /* xyzgridshift.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xyzgridshift.Plo; sourceTree = "<group>"; };
-		49E2F23124B1546E006272DE /* affine.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = affine.Plo; sourceTree = "<group>"; };
-		49E2F23224B1546E006272DE /* deformation.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = deformation.Plo; sourceTree = "<group>"; };
-		49E2F23324B1546E006272DE /* vgridshift.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vgridshift.Plo; sourceTree = "<group>"; };
-		49E2F23424B1546E006272DE /* hgridshift.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hgridshift.Plo; sourceTree = "<group>"; };
-		49E2F23524B1546E006272DE /* helmert.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = helmert.Plo; sourceTree = "<group>"; };
 		49E2F23624B1546E006272DE /* vgridshift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vgridshift.cpp; sourceTree = "<group>"; };
 		49E2F23724B1546E006272DE /* defmodel_exceptions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = defmodel_exceptions.hpp; sourceTree = "<group>"; };
 		49E2F23824B1546E006272DE /* gauss.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauss.cpp; sourceTree = "<group>"; };
 		49E2F23924B1546E006272DE /* fileapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fileapi.cpp; sourceTree = "<group>"; };
 		49E2F23B24B1546E006272DE /* proj_constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proj_constants.h; sourceTree = "<group>"; };
-		49E2F23D24B1546E006272DE /* proj_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proj_config.h; sourceTree = "<group>"; };
 		49E2F23E24B1546E006272DE /* ellps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ellps.cpp; sourceTree = "<group>"; };
 		49E2F23F24B1546E006272DE /* datums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = datums.cpp; sourceTree = "<group>"; };
 		49E2F24124B1546E006272DE /* geoc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geoc.cpp; sourceTree = "<group>"; };
@@ -299,13 +277,6 @@
 		49E2F24424B1546E006272DE /* unitconvert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unitconvert.cpp; sourceTree = "<group>"; };
 		49E2F24524B1546E006272DE /* geocent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = geocent.cpp; sourceTree = "<group>"; };
 		49E2F24624B1546E006272DE /* axisswap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = axisswap.cpp; sourceTree = "<group>"; };
-		49E2F24824B1546E006272DE /* geoc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geoc.Plo; sourceTree = "<group>"; };
-		49E2F24924B1546E006272DE /* noop.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noop.Plo; sourceTree = "<group>"; };
-		49E2F24A24B1546E006272DE /* set.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = set.Plo; sourceTree = "<group>"; };
-		49E2F24B24B1546E006272DE /* unitconvert.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unitconvert.Plo; sourceTree = "<group>"; };
-		49E2F24C24B1546E006272DE /* geocent.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geocent.Plo; sourceTree = "<group>"; };
-		49E2F24D24B1546E006272DE /* cart.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cart.Plo; sourceTree = "<group>"; };
-		49E2F24E24B1546E006272DE /* axisswap.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = axisswap.Plo; sourceTree = "<group>"; };
 		49E2F24F24B1546E006272DE /* cart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cart.cpp; sourceTree = "<group>"; };
 		49E2F25024B1546E006272DE /* wkt1_generated_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wkt1_generated_parser.c; sourceTree = "<group>"; };
 		49E2F25224B1546E006272DE /* adjlon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adjlon.cpp; sourceTree = "<group>"; };
@@ -422,113 +393,6 @@
 		49E2F2CC24B1546E006272DE /* sconics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sconics.cpp; sourceTree = "<group>"; };
 		49E2F2CD24B1546E006272DE /* robin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = robin.cpp; sourceTree = "<group>"; };
 		49E2F2CE24B1546E006272DE /* putp6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = putp6.cpp; sourceTree = "<group>"; };
-		49E2F2D024B1546E006272DE /* aeqd.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aeqd.Plo; sourceTree = "<group>"; };
-		49E2F2D124B1546E006272DE /* cc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cc.Plo; sourceTree = "<group>"; };
-		49E2F2D224B1546E006272DE /* tpeqd.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tpeqd.Plo; sourceTree = "<group>"; };
-		49E2F2D324B1546E006272DE /* calcofi.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = calcofi.Plo; sourceTree = "<group>"; };
-		49E2F2D424B1546E006272DE /* stere.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stere.Plo; sourceTree = "<group>"; };
-		49E2F2D524B1546E006272DE /* lcc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcc.Plo; sourceTree = "<group>"; };
-		49E2F2D624B1546E006272DE /* vandg.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vandg.Plo; sourceTree = "<group>"; };
-		49E2F2D724B1546E006272DE /* ocea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ocea.Plo; sourceTree = "<group>"; };
-		49E2F2D824B1546E006272DE /* oea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = oea.Plo; sourceTree = "<group>"; };
-		49E2F2D924B1546E006272DE /* geos.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = geos.Plo; sourceTree = "<group>"; };
-		49E2F2DA24B1546E006272DE /* mbt_fps.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mbt_fps.Plo; sourceTree = "<group>"; };
-		49E2F2DB24B1546E006272DE /* bertin1953.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bertin1953.Plo; sourceTree = "<group>"; };
-		49E2F2DC24B1546E006272DE /* gall.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gall.Plo; sourceTree = "<group>"; };
-		49E2F2DD24B1546E006272DE /* misrsom.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = misrsom.Plo; sourceTree = "<group>"; };
-		49E2F2DE24B1546E006272DE /* gstmerc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gstmerc.Plo; sourceTree = "<group>"; };
-		49E2F2DF24B1546E006272DE /* tmerc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tmerc.Plo; sourceTree = "<group>"; };
-		49E2F2E024B1546E006272DE /* rpoly.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rpoly.Plo; sourceTree = "<group>"; };
-		49E2F2E124B1546E006272DE /* igh.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = igh.Plo; sourceTree = "<group>"; };
-		49E2F2E224B1546E006272DE /* nzmg.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nzmg.Plo; sourceTree = "<group>"; };
-		49E2F2E324B1546E006272DE /* rouss.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rouss.Plo; sourceTree = "<group>"; };
-		49E2F2E424B1546E006272DE /* fahey.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fahey.Plo; sourceTree = "<group>"; };
-		49E2F2E524B1546E006272DE /* hammer.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hammer.Plo; sourceTree = "<group>"; };
-		49E2F2E624B1546E006272DE /* bacon.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bacon.Plo; sourceTree = "<group>"; };
-		49E2F2E724B1546E006272DE /* gn_sinu.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gn_sinu.Plo; sourceTree = "<group>"; };
-		49E2F2E824B1546E006272DE /* natearth2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = natearth2.Plo; sourceTree = "<group>"; };
-		49E2F2E924B1546E006272DE /* bonne.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bonne.Plo; sourceTree = "<group>"; };
-		49E2F2EA24B1546E006272DE /* bipc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bipc.Plo; sourceTree = "<group>"; };
-		49E2F2EB24B1546E006272DE /* larr.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = larr.Plo; sourceTree = "<group>"; };
-		49E2F2EC24B1546E006272DE /* tcc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tcc.Plo; sourceTree = "<group>"; };
-		49E2F2ED24B1546E006272DE /* denoy.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = denoy.Plo; sourceTree = "<group>"; };
-		49E2F2EE24B1546E006272DE /* krovak.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = krovak.Plo; sourceTree = "<group>"; };
-		49E2F2EF24B1546E006272DE /* august.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = august.Plo; sourceTree = "<group>"; };
-		49E2F2F024B1546E006272DE /* boggs.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boggs.Plo; sourceTree = "<group>"; };
-		49E2F2F124B1546E006272DE /* gnom.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gnom.Plo; sourceTree = "<group>"; };
-		49E2F2F224B1546E006272DE /* urm5.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urm5.Plo; sourceTree = "<group>"; };
-		49E2F2F324B1546E006272DE /* ob_tran.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ob_tran.Plo; sourceTree = "<group>"; };
-		49E2F2F424B1546E006272DE /* patterson.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = patterson.Plo; sourceTree = "<group>"; };
-		49E2F2F524B1546E006272DE /* mod_ster.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mod_ster.Plo; sourceTree = "<group>"; };
-		49E2F2F624B1546E006272DE /* times.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = times.Plo; sourceTree = "<group>"; };
-		49E2F2F724B1546E006272DE /* imw_p.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imw_p.Plo; sourceTree = "<group>"; };
-		49E2F2F824B1546E006272DE /* somerc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = somerc.Plo; sourceTree = "<group>"; };
-		49E2F2F924B1546E006272DE /* poly.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = poly.Plo; sourceTree = "<group>"; };
-		49E2F2FA24B1546E006272DE /* healpix.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = healpix.Plo; sourceTree = "<group>"; };
-		49E2F2FB24B1546E006272DE /* lask.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lask.Plo; sourceTree = "<group>"; };
-		49E2F2FC24B1546E006272DE /* eck5.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eck5.Plo; sourceTree = "<group>"; };
-		49E2F2FD24B1546E006272DE /* eck4.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eck4.Plo; sourceTree = "<group>"; };
-		49E2F2FE24B1546E006272DE /* urmfps.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = urmfps.Plo; sourceTree = "<group>"; };
-		49E2F2FF24B1546E006272DE /* latlong.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = latlong.Plo; sourceTree = "<group>"; };
-		49E2F30024B1546E006272DE /* qsc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = qsc.Plo; sourceTree = "<group>"; };
-		49E2F30124B1546E006272DE /* fouc_s.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fouc_s.Plo; sourceTree = "<group>"; };
-		49E2F30224B1546E006272DE /* crast.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crast.Plo; sourceTree = "<group>"; };
-		49E2F30324B1546E006272DE /* moll.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moll.Plo; sourceTree = "<group>"; };
-		49E2F30424B1546E006272DE /* eck3.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eck3.Plo; sourceTree = "<group>"; };
-		49E2F30524B1546E006272DE /* nell_h.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nell_h.Plo; sourceTree = "<group>"; };
-		49E2F30624B1546E006272DE /* wink1.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wink1.Plo; sourceTree = "<group>"; };
-		49E2F30724B1546E006272DE /* eqearth.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eqearth.Plo; sourceTree = "<group>"; };
-		49E2F30824B1546E006272DE /* nicol.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nicol.Plo; sourceTree = "<group>"; };
-		49E2F30924B1546E006272DE /* goode.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goode.Plo; sourceTree = "<group>"; };
-		49E2F30A24B1546E006272DE /* laea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = laea.Plo; sourceTree = "<group>"; };
-		49E2F30B24B1546E006272DE /* eck2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eck2.Plo; sourceTree = "<group>"; };
-		49E2F30C24B1546E006272DE /* mbtfpp.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mbtfpp.Plo; sourceTree = "<group>"; };
-		49E2F30D24B1546E006272DE /* labrd.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labrd.Plo; sourceTree = "<group>"; };
-		49E2F30E24B1546E006272DE /* wink2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wink2.Plo; sourceTree = "<group>"; };
-		49E2F30F24B1546E006272DE /* ortho.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ortho.Plo; sourceTree = "<group>"; };
-		49E2F31024B1546E006272DE /* ccon.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ccon.Plo; sourceTree = "<group>"; };
-		49E2F31124B1546E006272DE /* collg.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = collg.Plo; sourceTree = "<group>"; };
-		49E2F31224B1546E006272DE /* gins8.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gins8.Plo; sourceTree = "<group>"; };
-		49E2F31324B1546E006272DE /* omerc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = omerc.Plo; sourceTree = "<group>"; };
-		49E2F31424B1546E006272DE /* tcea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tcea.Plo; sourceTree = "<group>"; };
-		49E2F31524B1546E006272DE /* putp4p.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = putp4p.Plo; sourceTree = "<group>"; };
-		49E2F31624B1546E006272DE /* sterea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sterea.Plo; sourceTree = "<group>"; };
-		49E2F31724B1546E006272DE /* eck1.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eck1.Plo; sourceTree = "<group>"; };
-		49E2F31824B1546E006272DE /* mill.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mill.Plo; sourceTree = "<group>"; };
-		49E2F31924B1546E006272DE /* mbtfpq.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mbtfpq.Plo; sourceTree = "<group>"; };
-		49E2F31A24B1546E006272DE /* lsat.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lsat.Plo; sourceTree = "<group>"; };
-		49E2F31B24B1546E006272DE /* putp3.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = putp3.Plo; sourceTree = "<group>"; };
-		49E2F31C24B1546E006272DE /* wag7.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wag7.Plo; sourceTree = "<group>"; };
-		49E2F31D24B1546E006272DE /* loxim.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = loxim.Plo; sourceTree = "<group>"; };
-		49E2F31E24B1546E006272DE /* isea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = isea.Plo; sourceTree = "<group>"; };
-		49E2F31F24B1546E006272DE /* cass.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cass.Plo; sourceTree = "<group>"; };
-		49E2F32024B1546E006272DE /* putp2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = putp2.Plo; sourceTree = "<group>"; };
-		49E2F32124B1546E006272DE /* sts.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sts.Plo; sourceTree = "<group>"; };
-		49E2F32224B1546E006272DE /* merc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = merc.Plo; sourceTree = "<group>"; };
-		49E2F32324B1546E006272DE /* airy.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airy.Plo; sourceTree = "<group>"; };
-		49E2F32424B1546E006272DE /* aitoff.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aitoff.Plo; sourceTree = "<group>"; };
-		49E2F32524B1546E006272DE /* vandg4.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vandg4.Plo; sourceTree = "<group>"; };
-		49E2F32624B1546E006272DE /* nsper.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nsper.Plo; sourceTree = "<group>"; };
-		49E2F32724B1546E006272DE /* tobmerc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tobmerc.Plo; sourceTree = "<group>"; };
-		49E2F32824B1546F006272DE /* chamb.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = chamb.Plo; sourceTree = "<group>"; };
-		49E2F32924B1546F006272DE /* lcca.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lcca.Plo; sourceTree = "<group>"; };
-		49E2F32A24B1546F006272DE /* putp5.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = putp5.Plo; sourceTree = "<group>"; };
-		49E2F32B24B1546F006272DE /* cea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cea.Plo; sourceTree = "<group>"; };
-		49E2F32C24B1546F006272DE /* natearth.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = natearth.Plo; sourceTree = "<group>"; };
-		49E2F32D24B1546F006272DE /* comill.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = comill.Plo; sourceTree = "<group>"; };
-		49E2F32E24B1546F006272DE /* eqc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eqc.Plo; sourceTree = "<group>"; };
-		49E2F32F24B1546F006272DE /* lagrng.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lagrng.Plo; sourceTree = "<group>"; };
-		49E2F33024B1546F006272DE /* nell.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = nell.Plo; sourceTree = "<group>"; };
-		49E2F33124B1546F006272DE /* putp6.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = putp6.Plo; sourceTree = "<group>"; };
-		49E2F33224B1546F006272DE /* eqdc.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eqdc.Plo; sourceTree = "<group>"; };
-		49E2F33324B1546F006272DE /* wag2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wag2.Plo; sourceTree = "<group>"; };
-		49E2F33424B1546F006272DE /* robin.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = robin.Plo; sourceTree = "<group>"; };
-		49E2F33524B1546F006272DE /* sconics.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconics.Plo; sourceTree = "<group>"; };
-		49E2F33624B1546F006272DE /* vandg2.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vandg2.Plo; sourceTree = "<group>"; };
-		49E2F33724B1546F006272DE /* hatano.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hatano.Plo; sourceTree = "<group>"; };
-		49E2F33824B1546F006272DE /* sch.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sch.Plo; sourceTree = "<group>"; };
-		49E2F33924B1546F006272DE /* wag3.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wag3.Plo; sourceTree = "<group>"; };
-		49E2F33A24B1546F006272DE /* aea.Plo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aea.Plo; sourceTree = "<group>"; };
 		49E2F33B24B1546F006272DE /* eqdc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eqdc.cpp; sourceTree = "<group>"; };
 		49E2F33C24B1546F006272DE /* wag2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wag2.cpp; sourceTree = "<group>"; };
 		49E2F33D24B1546F006272DE /* sts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sts.cpp; sourceTree = "<group>"; };
@@ -570,7 +434,6 @@
 		49E2F36624B1546F006272DE /* init.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = init.cpp; sourceTree = "<group>"; };
 		49E2F36724B1546F006272DE /* wkt1_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkt1_parser.h; sourceTree = "<group>"; };
 		49E2F36824B1546F006272DE /* rtodms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtodms.cpp; sourceTree = "<group>"; };
-		49E2F36924B1546F006272DE /* proj_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = proj_config.h.in; sourceTree = "<group>"; };
 		49E2F36A24B1546F006272DE /* wkt1_generated_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkt1_generated_parser.h; sourceTree = "<group>"; };
 		49E2F3AE24B1546F006272DE /* wkt2_generated_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wkt2_generated_parser.h; sourceTree = "<group>"; };
 		49E2F3AF24B1546F006272DE /* generic_inverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = generic_inverse.cpp; sourceTree = "<group>"; };
@@ -660,7 +523,6 @@
 				49E2F23824B1546E006272DE /* gauss.cpp */,
 				49E2F23924B1546E006272DE /* fileapi.cpp */,
 				49E2F23B24B1546E006272DE /* proj_constants.h */,
-				49E2F23D24B1546E006272DE /* proj_config.h */,
 				49E2F23E24B1546E006272DE /* ellps.cpp */,
 				49E2F23F24B1546E006272DE /* datums.cpp */,
 				49E2F25024B1546E006272DE /* wkt1_generated_parser.c */,
@@ -710,7 +572,6 @@
 				49E2F36624B1546F006272DE /* init.cpp */,
 				49E2F36724B1546F006272DE /* wkt1_parser.h */,
 				49E2F36824B1546F006272DE /* rtodms.cpp */,
-				49E2F36924B1546F006272DE /* proj_config.h.in */,
 				49E2F36A24B1546F006272DE /* wkt1_generated_parser.h */,
 				49E2F3AE24B1546F006272DE /* wkt2_generated_parser.h */,
 				49E2F3AF24B1546F006272DE /* generic_inverse.cpp */,
@@ -739,28 +600,8 @@
 				49E2F21224B1546E006272DE /* factory.cpp */,
 				49E2F21324B1546E006272DE /* static.cpp */,
 				49E2F21424B1546E006272DE /* coordinatesystem.cpp */,
-				49E2F21524B1546E006272DE /* .deps */,
 			);
 			path = iso19111;
-			sourceTree = "<group>";
-		};
-		49E2F21524B1546E006272DE /* .deps */ = {
-			isa = PBXGroup;
-			children = (
-				49E2F21624B1546E006272DE /* crs.Plo */,
-				49E2F21724B1546E006272DE /* util.Plo */,
-				49E2F21824B1546E006272DE /* common.Plo */,
-				49E2F21924B1546E006272DE /* coordinateoperation.Plo */,
-				49E2F21A24B1546E006272DE /* c_api.Plo */,
-				49E2F21B24B1546E006272DE /* internal.Plo */,
-				49E2F21C24B1546E006272DE /* datum.Plo */,
-				49E2F21D24B1546E006272DE /* metadata.Plo */,
-				49E2F21E24B1546E006272DE /* io.Plo */,
-				49E2F21F24B1546E006272DE /* coordinatesystem.Plo */,
-				49E2F22024B1546E006272DE /* static.Plo */,
-				49E2F22124B1546E006272DE /* factory.Plo */,
-			);
-			path = .deps;
 			sourceTree = "<group>";
 		};
 		49E2F22224B1546E006272DE /* transformations */ = {
@@ -776,26 +617,10 @@
 				49E2F22A24B1546E006272DE /* deformation.cpp */,
 				49E2F22B24B1546E006272DE /* helmert.cpp */,
 				49E2F22C24B1546E006272DE /* hgridshift.cpp */,
-				49E2F22D24B1546E006272DE /* .deps */,
 				49E2F23624B1546E006272DE /* vgridshift.cpp */,
 				49E2F23724B1546E006272DE /* defmodel_exceptions.hpp */,
 			);
 			path = transformations;
-			sourceTree = "<group>";
-		};
-		49E2F22D24B1546E006272DE /* .deps */ = {
-			isa = PBXGroup;
-			children = (
-				49E2F22E24B1546E006272DE /* molodensky.Plo */,
-				49E2F22F24B1546E006272DE /* horner.Plo */,
-				49E2F23024B1546E006272DE /* xyzgridshift.Plo */,
-				49E2F23124B1546E006272DE /* affine.Plo */,
-				49E2F23224B1546E006272DE /* deformation.Plo */,
-				49E2F23324B1546E006272DE /* vgridshift.Plo */,
-				49E2F23424B1546E006272DE /* hgridshift.Plo */,
-				49E2F23524B1546E006272DE /* helmert.Plo */,
-			);
-			path = .deps;
 			sourceTree = "<group>";
 		};
 		49E2F24024B1546E006272DE /* conversions */ = {
@@ -807,24 +632,9 @@
 				49E2F24424B1546E006272DE /* unitconvert.cpp */,
 				49E2F24524B1546E006272DE /* geocent.cpp */,
 				49E2F24624B1546E006272DE /* axisswap.cpp */,
-				49E2F24724B1546E006272DE /* .deps */,
 				49E2F24F24B1546E006272DE /* cart.cpp */,
 			);
 			path = conversions;
-			sourceTree = "<group>";
-		};
-		49E2F24724B1546E006272DE /* .deps */ = {
-			isa = PBXGroup;
-			children = (
-				49E2F24824B1546E006272DE /* geoc.Plo */,
-				49E2F24924B1546E006272DE /* noop.Plo */,
-				49E2F24A24B1546E006272DE /* set.Plo */,
-				49E2F24B24B1546E006272DE /* unitconvert.Plo */,
-				49E2F24C24B1546E006272DE /* geocent.Plo */,
-				49E2F24D24B1546E006272DE /* cart.Plo */,
-				49E2F24E24B1546E006272DE /* axisswap.Plo */,
-			);
-			path = .deps;
 			sourceTree = "<group>";
 		};
 		49E2F27224B1546E006272DE /* projections */ = {
@@ -922,7 +732,6 @@
 				49E2F2CC24B1546E006272DE /* sconics.cpp */,
 				49E2F2CD24B1546E006272DE /* robin.cpp */,
 				49E2F2CE24B1546E006272DE /* putp6.cpp */,
-				49E2F2CF24B1546E006272DE /* .deps */,
 				49E2F33B24B1546F006272DE /* eqdc.cpp */,
 				49E2F33C24B1546F006272DE /* wag2.cpp */,
 				49E2F33D24B1546F006272DE /* sts.cpp */,
@@ -944,120 +753,6 @@
 			path = projections;
 			sourceTree = "<group>";
 		};
-		49E2F2CF24B1546E006272DE /* .deps */ = {
-			isa = PBXGroup;
-			children = (
-				49E2F2D024B1546E006272DE /* aeqd.Plo */,
-				49E2F2D124B1546E006272DE /* cc.Plo */,
-				49E2F2D224B1546E006272DE /* tpeqd.Plo */,
-				49E2F2D324B1546E006272DE /* calcofi.Plo */,
-				49E2F2D424B1546E006272DE /* stere.Plo */,
-				49E2F2D524B1546E006272DE /* lcc.Plo */,
-				49E2F2D624B1546E006272DE /* vandg.Plo */,
-				49E2F2D724B1546E006272DE /* ocea.Plo */,
-				49E2F2D824B1546E006272DE /* oea.Plo */,
-				49E2F2D924B1546E006272DE /* geos.Plo */,
-				49E2F2DA24B1546E006272DE /* mbt_fps.Plo */,
-				49E2F2DB24B1546E006272DE /* bertin1953.Plo */,
-				49E2F2DC24B1546E006272DE /* gall.Plo */,
-				49E2F2DD24B1546E006272DE /* misrsom.Plo */,
-				49E2F2DE24B1546E006272DE /* gstmerc.Plo */,
-				49E2F2DF24B1546E006272DE /* tmerc.Plo */,
-				49E2F2E024B1546E006272DE /* rpoly.Plo */,
-				49E2F2E124B1546E006272DE /* igh.Plo */,
-				49E2F2E224B1546E006272DE /* nzmg.Plo */,
-				49E2F2E324B1546E006272DE /* rouss.Plo */,
-				49E2F2E424B1546E006272DE /* fahey.Plo */,
-				49E2F2E524B1546E006272DE /* hammer.Plo */,
-				49E2F2E624B1546E006272DE /* bacon.Plo */,
-				49E2F2E724B1546E006272DE /* gn_sinu.Plo */,
-				49E2F2E824B1546E006272DE /* natearth2.Plo */,
-				49E2F2E924B1546E006272DE /* bonne.Plo */,
-				49E2F2EA24B1546E006272DE /* bipc.Plo */,
-				49E2F2EB24B1546E006272DE /* larr.Plo */,
-				49E2F2EC24B1546E006272DE /* tcc.Plo */,
-				49E2F2ED24B1546E006272DE /* denoy.Plo */,
-				49E2F2EE24B1546E006272DE /* krovak.Plo */,
-				49E2F2EF24B1546E006272DE /* august.Plo */,
-				49E2F2F024B1546E006272DE /* boggs.Plo */,
-				49E2F2F124B1546E006272DE /* gnom.Plo */,
-				49E2F2F224B1546E006272DE /* urm5.Plo */,
-				49E2F2F324B1546E006272DE /* ob_tran.Plo */,
-				49E2F2F424B1546E006272DE /* patterson.Plo */,
-				49E2F2F524B1546E006272DE /* mod_ster.Plo */,
-				49E2F2F624B1546E006272DE /* times.Plo */,
-				49E2F2F724B1546E006272DE /* imw_p.Plo */,
-				49E2F2F824B1546E006272DE /* somerc.Plo */,
-				49E2F2F924B1546E006272DE /* poly.Plo */,
-				49E2F2FA24B1546E006272DE /* healpix.Plo */,
-				49E2F2FB24B1546E006272DE /* lask.Plo */,
-				49E2F2FC24B1546E006272DE /* eck5.Plo */,
-				49E2F2FD24B1546E006272DE /* eck4.Plo */,
-				49E2F2FE24B1546E006272DE /* urmfps.Plo */,
-				49E2F2FF24B1546E006272DE /* latlong.Plo */,
-				49E2F30024B1546E006272DE /* qsc.Plo */,
-				49E2F30124B1546E006272DE /* fouc_s.Plo */,
-				49E2F30224B1546E006272DE /* crast.Plo */,
-				49E2F30324B1546E006272DE /* moll.Plo */,
-				49E2F30424B1546E006272DE /* eck3.Plo */,
-				49E2F30524B1546E006272DE /* nell_h.Plo */,
-				49E2F30624B1546E006272DE /* wink1.Plo */,
-				49E2F30724B1546E006272DE /* eqearth.Plo */,
-				49E2F30824B1546E006272DE /* nicol.Plo */,
-				49E2F30924B1546E006272DE /* goode.Plo */,
-				49E2F30A24B1546E006272DE /* laea.Plo */,
-				49E2F30B24B1546E006272DE /* eck2.Plo */,
-				49E2F30C24B1546E006272DE /* mbtfpp.Plo */,
-				49E2F30D24B1546E006272DE /* labrd.Plo */,
-				49E2F30E24B1546E006272DE /* wink2.Plo */,
-				49E2F30F24B1546E006272DE /* ortho.Plo */,
-				49E2F31024B1546E006272DE /* ccon.Plo */,
-				49E2F31124B1546E006272DE /* collg.Plo */,
-				49E2F31224B1546E006272DE /* gins8.Plo */,
-				49E2F31324B1546E006272DE /* omerc.Plo */,
-				49E2F31424B1546E006272DE /* tcea.Plo */,
-				49E2F31524B1546E006272DE /* putp4p.Plo */,
-				49E2F31624B1546E006272DE /* sterea.Plo */,
-				49E2F31724B1546E006272DE /* eck1.Plo */,
-				49E2F31824B1546E006272DE /* mill.Plo */,
-				49E2F31924B1546E006272DE /* mbtfpq.Plo */,
-				49E2F31A24B1546E006272DE /* lsat.Plo */,
-				49E2F31B24B1546E006272DE /* putp3.Plo */,
-				49E2F31C24B1546E006272DE /* wag7.Plo */,
-				49E2F31D24B1546E006272DE /* loxim.Plo */,
-				49E2F31E24B1546E006272DE /* isea.Plo */,
-				49E2F31F24B1546E006272DE /* cass.Plo */,
-				49E2F32024B1546E006272DE /* putp2.Plo */,
-				49E2F32124B1546E006272DE /* sts.Plo */,
-				49E2F32224B1546E006272DE /* merc.Plo */,
-				49E2F32324B1546E006272DE /* airy.Plo */,
-				49E2F32424B1546E006272DE /* aitoff.Plo */,
-				49E2F32524B1546E006272DE /* vandg4.Plo */,
-				49E2F32624B1546E006272DE /* nsper.Plo */,
-				49E2F32724B1546E006272DE /* tobmerc.Plo */,
-				49E2F32824B1546F006272DE /* chamb.Plo */,
-				49E2F32924B1546F006272DE /* lcca.Plo */,
-				49E2F32A24B1546F006272DE /* putp5.Plo */,
-				49E2F32B24B1546F006272DE /* cea.Plo */,
-				49E2F32C24B1546F006272DE /* natearth.Plo */,
-				49E2F32D24B1546F006272DE /* comill.Plo */,
-				49E2F32E24B1546F006272DE /* eqc.Plo */,
-				49E2F32F24B1546F006272DE /* lagrng.Plo */,
-				49E2F33024B1546F006272DE /* nell.Plo */,
-				49E2F33124B1546F006272DE /* putp6.Plo */,
-				49E2F33224B1546F006272DE /* eqdc.Plo */,
-				49E2F33324B1546F006272DE /* wag2.Plo */,
-				49E2F33424B1546F006272DE /* robin.Plo */,
-				49E2F33524B1546F006272DE /* sconics.Plo */,
-				49E2F33624B1546F006272DE /* vandg2.Plo */,
-				49E2F33724B1546F006272DE /* hatano.Plo */,
-				49E2F33824B1546F006272DE /* sch.Plo */,
-				49E2F33924B1546F006272DE /* wag3.Plo */,
-				49E2F33A24B1546F006272DE /* aea.Plo */,
-			);
-			path = .deps;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1065,7 +760,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49E2F3FF24B1546F006272DE /* proj_config.h in Headers */,
 				49E2F49F24B1546F006272DE /* filemanager.hpp in Headers */,
 				49E2F49524B1546F006272DE /* proj_experimental.h in Headers */,
 				49E2F3DF24B1546F006272DE /* proj_api.h in Headers */,
